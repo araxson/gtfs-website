@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GTFS - Global Tech Fluid Services
 
-## Getting Started
+A modern, responsive website for Global Tech Fluid Services, showcasing industrial filtration and pump solutions. Built with Next.js 15, TypeScript, and Shadcn UI.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern Tech Stack**: Next.js 15 with App Router, TypeScript, and Tailwind CSS
+- **Responsive Design**: Mobile-first approach with beautiful UI components
+- **Performance Optimized**: Image optimization, static generation, and efficient loading
+- **SEO Ready**: Structured data, meta tags, and semantic HTML
+- **Accessibility**: WCAG compliant with proper ARIA labels and keyboard navigation
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15.4.6
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **UI Components**: Shadcn UI
+- **Icons**: Lucide React
+- **Build Tool**: Turbopack
+
+## 📁 Project Structure
+
+```
+gtfs/
+├── src/
+│   ├── app/                    # Next.js App Router pages
+│   │   ├── about/             # About page
+│   │   ├── api/               # API routes
+│   │   ├── brand-guidelines/  # Brand guidelines page
+│   │   ├── contact/           # Contact page
+│   │   └── products/          # Product pages
+│   ├── components/            # Reusable UI components
+│   │   ├── ui/               # Shadcn UI components
+│   │   └── ...               # Custom components
+│   ├── data/                 # Static data and content
+│   ├── lib/                  # Utility functions and types
+│   └── contexts/             # React contexts
+├── public/                   # Static assets
+└── components.json           # Shadcn UI configuration
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js 18+ 
+- npm
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd gtfs
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Run the development server:
+```bash
+npm run dev
+```
 
-## Deploy on Vercel
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 Available Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## 🎨 UI Components
+
+The project uses Shadcn UI components for consistent design:
+
+- **Layout**: PageContainer, PageHeader, SiteHeader, SiteFooter
+- **Navigation**: MainNav, SiteBreadcrumb
+- **Forms**: SearchFilter, Contact forms
+- **Display**: Cards, Badges, Tabs, Accordion
+
+## 📱 Responsive Design
+
+- Mobile-first approach
+- Breakpoints: sm (640px), md (768px), lg (1024px), xl (1280px)
+- Optimized for all device sizes
+
+## 🖼️ Image Optimization
+
+- Uses Next.js Image component for automatic optimization
+- WebP format support
+- Lazy loading and responsive images
+- Proper alt tags for accessibility
+
+## 🔍 SEO Features
+
+- Meta tags and Open Graph
+- Structured data (JSON-LD)
+- Semantic HTML structure
+- Sitemap generation
+- Breadcrumb navigation
+
+## 📊 Performance
+
+- Static site generation (SSG)
+- Image optimization
+- Code splitting
+- Efficient bundle sizes
+- Lighthouse score optimization
+
+## 🚀 Deployment
+
+The project is optimized for deployment on:
+
+- Vercel (recommended)
+- Netlify
+- Any static hosting service
+
+## 📄 License
+
+This project is proprietary to Global Tech Fluid Services.
+
+## 🤝 Contributing
+
+For internal development and updates only.
+
+---
+
+Built with ❤️ using Next.js and modern web technologies.
