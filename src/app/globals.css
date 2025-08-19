@@ -25,6 +25,7 @@
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
   --color-border: var(--border);
+  --color-border-light: var(--border-light);
   --color-input: var(--input);
   --color-ring: var(--ring);
   --color-chart-1: var(--chart-1);
@@ -66,7 +67,8 @@
   --destructive: oklch(0.62 0.22 25);
   --destructive-foreground: oklch(0.99 0 0);
   /* UI scaffolding */
-  --border: oklch(0.9 0.01 255);
+  --border: oklch(0.9 0.01 255/50%);
+  --border-light: oklch(0.95 0.01 255/50%);
   --input: oklch(0.9 0.01 255);
   --ring: oklch(0.68 0.08 210);
   /* Data viz */
@@ -105,6 +107,7 @@
   --destructive: oklch(0.72 0.22 30);
   --destructive-foreground: oklch(0.98 0 0);
   --border: oklch(1 0 0 / 10%);
+  --border-light: oklch(1 0 0 / 20%);
   --input: oklch(1 0 0 / 15%);
   --ring: oklch(0.7 0.09 210);
   --chart-1: oklch(0.74 0.16 210);

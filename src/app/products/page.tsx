@@ -8,7 +8,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { Skeleton } from "@/components/ui/skeleton";
+import { ContentBlocksSkeleton } from "@/components/ui/skeleton-loader";
 import { PageContainer } from "@/components/page-container";
 import { PageHeader } from "@/components/page-header";
 import { ArrowRight, X, AlertCircle } from "lucide-react";
@@ -90,28 +90,9 @@ export default function ProductsPage() {
   if (isLoading) {
     return (
       <div className="page-background-muted">
-      <PageContainer>
-        <div className="space-y-6">
-          <div className="space-y-4">
-            <Skeleton className="h-12 w-64" />
-            <Skeleton className="h-6 w-96" />
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
-            {Array.from({ length: 6 }).map((_, i) => (
-              <Card key={i}>
-                <CardHeader>
-                  <Skeleton className="h-6 w-32" />
-                  <Skeleton className="h-4 w-full" />
-                </CardHeader>
-                <CardContent>
-                  <Skeleton className="h-4 w-full mb-2" />
-                  <Skeleton className="h-4 w-3/4" />
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </PageContainer>
+        <PageContainer>
+          <ContentBlocksSkeleton count={6} />
+        </PageContainer>
       </div>
     );
   }
@@ -379,7 +360,7 @@ export default function ProductsPage() {
       <Separator />
       
       {/* CTA Section */}
-      <section className="content-section">
+      <section className="content-section mb-8 lg:mb-12">
       <Card className="text-center">
         <CardHeader>
           <CardTitle className="text-lg sm:text-xl">Need Help Finding the Right Filter?</CardTitle>

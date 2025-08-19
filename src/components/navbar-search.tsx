@@ -17,7 +17,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import { Search, ArrowRight, Loader2 } from "lucide-react";
+import { Search, ArrowRight } from "lucide-react";
 import { Product } from "@/lib/types";
 
 export function NavbarSearch() {
@@ -114,7 +114,9 @@ export function NavbarSearch() {
               onKeyDown={handleKeyDown}
             />
             {isLoading && (
-              <Loader2 className="absolute right-2.5 top-2.5 h-4 w-4 animate-spin text-muted-foreground" />
+              <div className="absolute right-2.5 top-2.5">
+                <div className="h-4 w-4 bg-muted-foreground/20 rounded animate-pulse" />
+              </div>
             )}
           </div>
         </PopoverTrigger>

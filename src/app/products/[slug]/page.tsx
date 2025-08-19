@@ -20,6 +20,7 @@ import {
 } from "lucide-react";
 import { SearchFilter } from "@/components/search-filter";
 import { CategoryPageProps, ProductCategory, Product } from "@/lib/types";
+import { ContentBlocksSkeleton } from "@/components/ui/skeleton-loader";
 
 export default function CategoryPage({ params }: CategoryPageProps) {
   const [category, setCategory] = useState<ProductCategory | null>(null);
@@ -160,12 +161,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
   if (isLoading) {
     return (
       <PageContainer>
-        <div className="flex items-center justify-center min-h-[400px]">
-          <div className="text-center">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-4"></div>
-            <p className="text-muted-foreground">Loading products...</p>
-          </div>
-        </div>
+        <ContentBlocksSkeleton count={6} />
       </PageContainer>
     );
   }
@@ -425,7 +421,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
       {/* Related Categories */}
       {products.length > 0 && (
-        <div className="mt-16 p-8 rounded-lg bg-muted/50">
+        <div className="mt-16 mb-8 lg:mb-12 p-8 rounded-lg bg-muted/50">
           <h3 className="text-xl font-semibold mb-4">Need Something Different?</h3>
           <p className="text-muted-foreground mb-6">
             Explore our other product categories or contact our technical team for custom solutions.

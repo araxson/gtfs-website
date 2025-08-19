@@ -39,7 +39,7 @@ export function PageHeader({
       <header
         className={cn(
           // gradient hero surface from globals.css
-          "hero-section rounded-lg border border-border/60",
+          "hero-section rounded-lg border border-border",
           // spacing - increased bottom margin for better separation from content below
           "px-4 sm:px-6 lg:px-8 py-8 md:py-10 lg:py-12 mb-8 sm:mb-10 lg:mb-12",
           className

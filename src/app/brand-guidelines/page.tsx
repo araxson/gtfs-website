@@ -91,14 +91,16 @@ const BrandGuidelinesPage = () => {
               Version 2.0
             </Badge>
             <div className="flex justify-center mb-4 sm:mb-6">
-              <Image 
-                src="/gtfs-logo.png" 
-                alt="GTFS Logo" 
-                width={240} 
-                height={120}
-                className="w-32 h-16 sm:w-40 sm:h-20 md:w-48 md:h-24 lg:w-56 lg:h-28 xl:w-64 xl:h-32"
-                priority
-              />
+              <div className="w-96 h-32 flex items-center justify-center">
+                <Image 
+                  src="/gtfs-logo.png" 
+                  alt="GTFS Logo" 
+                  width={360}
+                  height={120}
+                  className="w-full h-full object-contain"
+                  priority
+                />
+              </div>
             </div>
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light text-muted-foreground mb-6 sm:mb-8 leading-tight">
               Global Tech Fluid Services
@@ -119,7 +121,7 @@ const BrandGuidelinesPage = () => {
       <main id="main-content">
       <section className="section-secondary content-section" aria-labelledby="toc-title">
         <div className="container mx-auto px-4">
-          <Card className="max-w-7xl mx-auto border-border">
+          <Card className="max-w-7xl mx-auto border-[--border]">
             <CardHeader className="text-center pb-8">
               <CardTitle id="toc-title" className="text-2xl sm:text-3xl font-black text-primary">
                 Table of Contents
@@ -150,7 +152,7 @@ const BrandGuidelinesPage = () => {
                     key={item.href}
                     href={item.href}
                     onClick={(e) => scrollToSection(e, item.href)}
-                    className="group block p-4 sm:p-6 bg-card hover:bg-muted/50 rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-primary"
+                    className="group block p-4 sm:p-6 bg-card hover:bg-muted/50 rounded-lg border-[--border] focus:outline-none focus:ring-2 focus:ring-primary"
                     role="button"
                     aria-label={`Navigate to ${item.title} section`}
                   >
@@ -315,43 +317,43 @@ const BrandGuidelinesPage = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="bg-card border border-border rounded-lg text-center p-4">
-                  <div className="w-32 h-20 mx-auto mb-3 flex items-center justify-center">
+                  <div className="w-48 h-16 mx-auto mb-3 flex items-center justify-center overflow-hidden">
                     <Image 
                       src="/gtfs-logo.png" 
                       alt="GTFS Logo displayed on light background - Primary version" 
-                      width={128} 
-                      height={80}
-                      className="max-w-full h-auto"
+                      width={144}
+                      height={48}
+                      className="w-full h-full object-contain"
                       loading="lazy"
-                      sizes="(max-width: 768px) 80px, 128px"
+                      sizes="(max-width: 768px) 144px, 192px"
                     />
                   </div>
                   <p className="text-sm text-muted-foreground">Primary (Light Backgrounds)</p>
                 </div>
                 <div className="bg-primary rounded-lg text-center p-4">
-                  <div className="w-32 h-20 mx-auto mb-3 flex items-center justify-center">
+                  <div className="w-48 h-16 mx-auto mb-3 flex items-center justify-center overflow-hidden">
                     <Image 
                       src="/gtfs-logo.png" 
                       alt="GTFS Logo displayed on dark background - Reversed white version" 
-                      width={128} 
-                      height={80}
-                      className="max-w-full h-auto filter brightness-0 invert"
+                      width={144}
+                      height={48}
+                      className="w-full h-full object-contain filter brightness-0 invert"
                       loading="lazy"
-                      sizes="(max-width: 768px) 80px, 128px"
+                      sizes="(max-width: 768px) 144px, 192px"
                     />
                   </div>
                   <p className="text-sm text-primary-foreground">Reversed (Dark Backgrounds)</p>
                 </div>
                 <div className="bg-accent rounded-lg text-center p-4">
-                  <div className="w-32 h-20 mx-auto mb-3 flex items-center justify-center">
+                  <div className="w-48 h-16 mx-auto mb-3 flex items-center justify-center overflow-hidden">
                     <Image 
                       src="/gtfs-logo.png" 
                       alt="GTFS Logo displayed on brand color background - White version" 
-                      width={128} 
-                      height={80}
-                      className="max-w-full h-auto filter brightness-0 invert"
+                      width={144}
+                      height={48}
+                      className="w-full h-full object-contain filter brightness-0 invert"
                       loading="lazy"
-                      sizes="(max-width: 768px) 80px, 128px"
+                      sizes="(max-width: 768px) 144px, 192px"
                     />
                   </div>
                   <p className="text-sm text-accent-foreground">Brand Color Background</p>
@@ -365,15 +367,15 @@ const BrandGuidelinesPage = () => {
               </CardHeader>
               <CardContent>
                 <div className="border-2 border-dashed border-muted-foreground/30 p-4 sm:p-8 rounded-lg text-center">
-                  <div className="w-40 h-24 mx-auto flex items-center justify-center relative">
+                  <div className="w-60 h-20 mx-auto flex items-center justify-center relative overflow-hidden">
                     <Image 
                       src="/gtfs-logo.png" 
                       alt="GTFS Logo construction guide showing proper spacing and alignment" 
-                      width={160} 
-                      height={96}
-                      className="max-w-full h-auto"
+                      width={180}
+                      height={60}
+                      className="w-full h-full object-contain"
                       loading="lazy"
-                      sizes="(max-width: 768px) 120px, 160px"
+                      sizes="(max-width: 768px) 180px, 240px"
                     />
                     <div className="absolute inset-0 border border-accent opacity-50 rounded-lg"></div>
                   </div>
@@ -407,15 +409,15 @@ const BrandGuidelinesPage = () => {
                   },
                 ].map((item, index) => (
                   <div key={index} className="p-4 bg-destructive/10 border border-destructive/20 rounded-lg text-center">
-                    <div className="w-20 h-12 bg-muted rounded-lg flex items-center justify-center mb-3">
+                    <div className="w-36 h-12 bg-muted rounded-lg flex items-center justify-center mb-3 overflow-hidden">
                       <Image 
                         src="/gtfs-logo.png" 
                         alt={`Example of incorrect logo usage - ${item.text}`}
-                        width={64} 
-                        height={40}
-                        className={`max-w-full h-auto opacity-50 ${item.logoStyle}`}
+                        width={72}
+                        height={24}
+                        className="w-full h-full object-contain opacity-50"
                         loading="lazy"
-                        sizes="64px"
+                        sizes="72px"
                       />
                     </div>
                     <item.icon className="w-6 h-6 text-destructive mx-auto mb-2" />
@@ -1249,13 +1251,15 @@ const BrandGuidelinesPage = () => {
                     <div className="bg-muted/30 rounded-lg border border-border p-6">
                       <div className="text-center">
                         <div className="flex justify-center mb-2">
-                          <Image 
-                            src="/gtfs-logo.png" 
-                            alt="GTFS Logo" 
-                            width={96} 
-                            height={60}
-                            className="w-20 h-12"
-                          />
+                          <div className="w-24 h-8 flex items-center justify-center overflow-hidden">
+                            <Image 
+                              src="/gtfs-logo.png" 
+                              alt="GTFS Logo" 
+                              width={90}
+                              height={30}
+                              className="w-full h-full object-contain"
+                            />
+                          </div>
                         </div>
                         <div className="text-sm text-muted-foreground mb-4">Global Tech Fluid Services</div>
                         <div className="text-xs text-muted-foreground">Engineering Excellence in Fluid Solutions</div>
@@ -1277,13 +1281,15 @@ const BrandGuidelinesPage = () => {
                         <div className="text-muted-foreground mb-3">[Title Placeholder]</div>
                         <Separator className="w-16 h-0.5 bg-primary mb-3" />
                         <div className="font-semibold text-primary mb-3 flex items-center gap-2">
-                          <Image 
-                            src="/gtfs-logo.png" 
-                            alt="GTFS Logo" 
-                            width={32} 
-                            height={20}
-                            className="w-8 h-5"
-                          />
+                          <div className="w-16 h-5 flex items-center justify-center overflow-hidden">
+                            <Image 
+                              src="/gtfs-logo.png" 
+                              alt="GTFS Logo" 
+                              width={60}
+                              height={20}
+                              className="w-full h-full object-contain"
+                            />
+                          </div>
                           <span>Global Tech Fluid Services</span>
                         </div>
                         <div className="text-xs text-muted-foreground space-y-1">
