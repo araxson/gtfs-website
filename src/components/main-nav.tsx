@@ -37,13 +37,14 @@ export function MainNav({ items }: MainNavProps) {
 
   return (
     <div className="flex items-center justify-between w-full">
-      <Link href="/" className="flex items-center space-x-2 rounded-lg p-2 -ml-2 hover:bg-accent transition-colors">
+      <Link href="/" className="flex items-center space-x-2 rounded-lg p-2 -ml-2">
         <Image
           src="/gtfs-logo.png"
           alt="GTFS Logo"
-          width={96}
-          height={32}
+          width={120}
+          height={40}
           className="h-8 w-auto sm:h-10"
+          priority
         />
       </Link>
       

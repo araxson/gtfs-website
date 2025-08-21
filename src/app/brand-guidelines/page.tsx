@@ -8,7 +8,6 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { Button } from '@/components/ui/button'
 import { Alert, AlertDescription } from '@/components/ui/alert'
 import Image from 'next/image'
-import { AspectRatio } from '@/components/ui/aspect-ratio'
 import { 
   Palette, 
   Type, 
@@ -89,19 +88,19 @@ const BrandGuidelinesPage = () => {
           <div className="max-w-7xl mx-auto">
             <Badge variant="secondary" className="mb-6 text-sm font-medium">
               Version 2.0
-            </Badge>
-            <div className="flex justify-center mb-4 sm:mb-6">
-              <div className="w-96 h-32 flex items-center justify-center">
-                <Image 
-                  src="/gtfs-logo.png" 
-                  alt="GTFS Logo" 
-                  width={360}
-                  height={120}
-                  className="w-full h-full object-contain"
-                  priority
-                />
+            </Badge>              <div className="flex justify-center mb-4 sm:mb-6">
+                <div className="w-96 h-32 flex items-center justify-center">
+                  <Image 
+                    src="/gtfs-logo.png" 
+                    alt="GTFS Logo" 
+                    width={360}
+                    height={120}
+                    className="max-w-full max-h-full object-contain"
+                    style={{ aspectRatio: 'auto' }}
+                    priority
+                  />
+                </div>
               </div>
-            </div>
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light text-muted-foreground mb-6 sm:mb-8 leading-tight">
               Global Tech Fluid Services
             </p>
@@ -323,7 +322,8 @@ const BrandGuidelinesPage = () => {
                       alt="GTFS Logo displayed on light background - Primary version" 
                       width={144}
                       height={48}
-                      className="w-full h-full object-contain"
+                      className="max-w-full max-h-full object-contain"
+                      style={{ aspectRatio: 'auto' }}
                       loading="lazy"
                       sizes="(max-width: 768px) 144px, 192px"
                     />
@@ -337,7 +337,8 @@ const BrandGuidelinesPage = () => {
                       alt="GTFS Logo displayed on dark background - Reversed white version" 
                       width={144}
                       height={48}
-                      className="w-full h-full object-contain filter brightness-0 invert"
+                      className="max-w-full max-h-full object-contain"
+                      style={{ aspectRatio: 'auto' }}
                       loading="lazy"
                       sizes="(max-width: 768px) 144px, 192px"
                     />
@@ -351,7 +352,8 @@ const BrandGuidelinesPage = () => {
                       alt="GTFS Logo displayed on brand color background - White version" 
                       width={144}
                       height={48}
-                      className="w-full h-full object-contain filter brightness-0 invert"
+                      className="max-w-full max-h-full object-contain"
+                      style={{ aspectRatio: 'auto' }}
                       loading="lazy"
                       sizes="(max-width: 768px) 144px, 192px"
                     />
@@ -373,7 +375,8 @@ const BrandGuidelinesPage = () => {
                       alt="GTFS Logo construction guide showing proper spacing and alignment" 
                       width={180}
                       height={60}
-                      className="w-full h-full object-contain"
+                      className="max-w-full max-h-full object-contain"
+                      style={{ aspectRatio: 'auto' }}
                       loading="lazy"
                       sizes="(max-width: 768px) 180px, 240px"
                     />
@@ -408,18 +411,31 @@ const BrandGuidelinesPage = () => {
                     logoStyle: "filter hue-rotate-90"
                   },
                 ].map((item, index) => (
-                  <div key={index} className="p-4 bg-destructive/10 border border-destructive/20 rounded-lg text-center">
-                    <div className="w-36 h-12 bg-muted rounded-lg flex items-center justify-center mb-3 overflow-hidden">
+                  <div key={index} className="p-4 bg-destructive/10 border-2 border-destructive/40 rounded-lg text-center relative">
+                    
+                    <div className="w-auto h-28 bg-muted rounded-lg flex items-center justify-center mb-3 overflow-hidden relative mx-auto px-4">
+                      {/* Logo with incorrect transformation */}
                       <Image 
                         src="/gtfs-logo.png" 
                         alt={`Example of incorrect logo usage - ${item.text}`}
-                        width={72}
-                        height={24}
-                        className="w-full h-full object-contain opacity-50"
+                        width={96}
+                        height={32}
+                        className={`w-auto max-w-full max-h-full object-contain transform ${
+                          item.logoStyle === "rotate-45" ? "rotate-45" :
+                          item.logoStyle === "scale-x-150 scale-y-75" ? "scale-x-150 scale-y-75" :
+                          item.logoStyle === "filter hue-rotate-90" ? "filter hue-rotate-90 saturate-200 brightness-125" : ""
+                        }`}
+                        style={{ aspectRatio: 'auto' }}
                         loading="lazy"
                         sizes="72px"
                       />
+                      
+                      {/* Large red X overlay to show this is wrong */}
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="text-destructive text-3xl font-bold opacity-80 drop-shadow-lg">✕</div>
+                      </div>
                     </div>
+                    
                     <item.icon className="w-6 h-6 text-destructive mx-auto mb-2" />
                     <p className="text-sm text-destructive font-medium">{item.text}</p>
                     <p className="text-xs text-destructive/70">{item.desc}</p>
@@ -1257,7 +1273,8 @@ const BrandGuidelinesPage = () => {
                               alt="GTFS Logo" 
                               width={90}
                               height={30}
-                              className="w-full h-full object-contain"
+                              className="max-w-full max-h-full object-contain"
+                              style={{ aspectRatio: 'auto' }}
                             />
                           </div>
                         </div>
@@ -1287,7 +1304,8 @@ const BrandGuidelinesPage = () => {
                               alt="GTFS Logo" 
                               width={60}
                               height={20}
-                              className="w-full h-full object-contain"
+                              className="max-w-full max-h-full object-contain"
+                              style={{ aspectRatio: 'auto' }}
                             />
                           </div>
                           <span>Global Tech Fluid Services</span>
@@ -1618,17 +1636,17 @@ const BrandGuidelinesPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <Card className="border-border">
                 <CardContent className="text-center">
-                  <div className="bg-muted rounded-lg mb-4 overflow-hidden">
-                    <AspectRatio ratio={4/3}>
-                      <Image 
-                        src="/placeholder.svg" 
-                        alt="Product brochure template design showing tri-fold layout - placeholder for actual templates" 
-                        fill
-                        className="object-cover"
-                        loading="lazy"
-                        sizes="(max-width: 1024px) 100vw, 33vw"
-                      />
-                    </AspectRatio>
+                  <div className="bg-muted rounded-lg mb-4 overflow-hidden h-48 flex items-center justify-center">
+                    <Image 
+                      src="/placeholder.svg" 
+                      alt="Product brochure template design showing tri-fold layout - placeholder for actual templates" 
+                      width={300}
+                      height={200}
+                      className="object-cover max-w-full max-h-full"
+                      loading="lazy"
+                      sizes="(max-width: 1024px) 100vw, 33vw"
+                      style={{ aspectRatio: 'auto' }}
+                    />
                   </div>
                   <h4 className="font-semibold text-primary mb-2">Product Brochures</h4>
                   <p className="text-sm text-muted-foreground">
@@ -1639,17 +1657,17 @@ const BrandGuidelinesPage = () => {
 
               <Card className="border-border">
                 <CardContent className="text-center">
-                  <div className="bg-muted rounded-lg mb-4 overflow-hidden">
-                    <AspectRatio ratio={4/3}>
-                      <Image 
-                        src="/placeholder.svg" 
-                        alt="Trade show banner design template - placeholder for actual banners" 
-                        fill
-                        className="object-cover"
-                        loading="lazy"
-                        sizes="(max-width: 1024px) 100vw, 33vw"
-                      />
-                    </AspectRatio>
+                  <div className="bg-muted rounded-lg mb-4 overflow-hidden h-48 flex items-center justify-center">
+                    <Image 
+                      src="/placeholder.svg" 
+                      alt="Trade show banner design template - placeholder for actual banners" 
+                      width={300}
+                      height={200}
+                      className="object-cover max-w-full max-h-full"
+                      loading="lazy"
+                      sizes="(max-width: 1024px) 100vw, 33vw"
+                      style={{ aspectRatio: 'auto' }}
+                    />
                   </div>
                   <h4 className="font-semibold text-primary mb-2">Trade Show Materials</h4>
                   <p className="text-sm text-muted-foreground">
@@ -1660,17 +1678,17 @@ const BrandGuidelinesPage = () => {
 
               <Card className="border-border">
                 <CardContent className="text-center">
-                  <div className="bg-muted rounded-lg mb-4 overflow-hidden">
-                    <AspectRatio ratio={4/3}>
-                      <Image 
-                        src="/placeholder.svg" 
-                        alt="Technical datasheet template showing product specifications - placeholder for actual templates" 
-                        fill
-                        className="object-cover"
-                        loading="lazy"
-                        sizes="(max-width: 1024px) 100vw, 33vw"
-                      />
-                    </AspectRatio>
+                  <div className="bg-muted rounded-lg mb-4 overflow-hidden h-48 flex items-center justify-center">
+                    <Image 
+                      src="/placeholder.svg" 
+                      alt="Technical datasheet template showing product specifications - placeholder for actual templates" 
+                      width={300}
+                      height={200}
+                      className="object-cover max-w-full max-h-full"
+                      loading="lazy"
+                      sizes="(max-width: 1024px) 100vw, 33vw"
+                      style={{ aspectRatio: 'auto' }}
+                    />
                   </div>
                   <h4 className="font-semibold text-primary mb-2">Technical Datasheets</h4>
                   <p className="text-sm text-muted-foreground">
@@ -1681,17 +1699,17 @@ const BrandGuidelinesPage = () => {
 
               <Card className="border-border">
                 <CardContent className="text-center">
-                  <div className="bg-muted rounded-lg mb-4 overflow-hidden">
-                    <AspectRatio ratio={4/3}>
-                      <Image 
-                        src="/placeholder.svg" 
-                        alt="Case study layout template showing customer success stories - placeholder for actual templates" 
-                        fill
-                        className="object-cover"
-                        loading="lazy"
-                        sizes="(max-width: 1024px) 100vw, 33vw"
-                      />
-                    </AspectRatio>
+                  <div className="bg-muted rounded-lg mb-4 overflow-hidden h-48 flex items-center justify-center">
+                    <Image 
+                      src="/placeholder.svg" 
+                      alt="Case study layout template showing customer success stories - placeholder for actual templates" 
+                      width={300}
+                      height={200}
+                      className="object-cover max-w-full max-h-full"
+                      loading="lazy"
+                      sizes="(max-width: 1024px) 100vw, 33vw"
+                      style={{ aspectRatio: 'auto' }}
+                    />
                   </div>
                   <h4 className="font-semibold text-primary mb-2">Case Studies</h4>
                   <p className="text-sm text-muted-foreground">
@@ -1702,17 +1720,17 @@ const BrandGuidelinesPage = () => {
 
               <Card className="border-border">
                 <CardContent className="text-center">
-                  <div className="bg-muted rounded-lg mb-4 overflow-hidden">
-                    <AspectRatio ratio={4/3}>
-                      <Image 
-                        src="/placeholder.svg" 
-                        alt="Vehicle wrap design template for service vehicles - placeholder for actual templates" 
-                        fill
-                        className="object-cover"
-                        loading="lazy"
-                        sizes="(max-width: 1024px) 100vw, 33vw"
-                      />
-                    </AspectRatio>
+                  <div className="bg-muted rounded-lg mb-4 overflow-hidden h-48 flex items-center justify-center">
+                    <Image 
+                      src="/placeholder.svg" 
+                      alt="Vehicle wrap design template for service vehicles - placeholder for actual templates" 
+                      width={300}
+                      height={200}
+                      className="object-cover max-w-full max-h-full"
+                      loading="lazy"
+                      sizes="(max-width: 1024px) 100vw, 33vw"
+                      style={{ aspectRatio: 'auto' }}
+                    />
                   </div>
                   <h4 className="font-semibold text-primary mb-2">Vehicle Wraps</h4>
                   <p className="text-sm text-muted-foreground">
@@ -1723,17 +1741,17 @@ const BrandGuidelinesPage = () => {
 
               <Card className="border-border">
                 <CardContent className="text-center">
-                  <div className="bg-muted rounded-lg mb-4 overflow-hidden">
-                    <AspectRatio ratio={4/3}>
-                      <Image 
-                        src="/placeholder.svg" 
-                        alt="Safety signage and training materials template - placeholder for actual templates" 
-                        fill
-                        className="object-cover"
-                        loading="lazy"
-                        sizes="(max-width: 1024px) 100vw, 33vw"
-                      />
-                    </AspectRatio>
+                  <div className="bg-muted rounded-lg mb-4 overflow-hidden h-48 flex items-center justify-center">
+                    <Image 
+                      src="/placeholder.svg" 
+                      alt="Safety signage and training materials template - placeholder for actual templates" 
+                      width={300}
+                      height={200}
+                      className="object-cover max-w-full max-h-full"
+                      loading="lazy"
+                      sizes="(max-width: 1024px) 100vw, 33vw"
+                      style={{ aspectRatio: 'auto' }}
+                    />
                   </div>
                   <h4 className="font-semibold text-primary mb-2">Safety & Training</h4>
                   <p className="text-sm text-muted-foreground">

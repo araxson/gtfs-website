@@ -91,13 +91,14 @@ export default async function AboutPage() {
             </div>
             
             <div className="relative">
-              <div className="relative h-96 rounded-lg overflow-hidden bg-gradient-to-br from-primary/10 to-secondary/10">
+              <div className="relative h-96 rounded-lg overflow-hidden bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center">
                 <Image
                   src="/gtfs-logo.png"
                   alt="Global Tech Fluid Services Manufacturing"
                   width={500}
                   height={400}
-                  className="object-contain mx-auto"
+                  className="object-contain max-w-full max-h-full"
+                  style={{ aspectRatio: 'auto' }}
                 />
               </div>
             </div>

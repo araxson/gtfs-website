@@ -2,11 +2,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import Image from "next/image";
+import { ImageWithFallback } from "@/components/ui/image-with-fallback";
 
 import { PageContainer } from "@/components/page-container";
 import { ArrowRight, CheckCircle, Shield, Globe, Users, Award, Settings } from "lucide-react";
 import { getGTFSData, getFeaturedProducts } from "@/lib/data";
+import { HeroCarousel } from "@/components/hero-carousel";
 
 export default async function Home() {
   const gtfsData = await getGTFSData();
@@ -14,72 +15,8 @@ export default async function Home() {
 
   return (
     <div className="flex flex-col">
-      {/* Hero Section */}
-      <section className="hero-section py-12 lg:py-24">
-        <PageContainer>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
-            <div className="space-y-6">
-              <div className="space-y-4">
-                <Badge variant="secondary" className="w-fit">
-                  Industrial Filtration & Pump Solutions
-                </Badge>
-                <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl xl:text-7xl">
-                  {gtfsData.company.tagline}
-                </h1>
-                <p className="text-xl sm:text-2xl text-muted-foreground max-w-2xl leading-relaxed">
-                  {gtfsData.company.mission}
-                </p>
-              </div>
-              
-              <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-                <Button size="lg" asChild className="text-lg font-medium px-8 shadow-xs hover:shadow-xs transition-shadow">
-                  <Link href="/products">
-                    Browse Products <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-                <Button variant="outline" size="lg" asChild className="text-lg font-medium px-8 border hover:shadow-xs transition-shadow">
-                  <Link href="/contact">
-                    Get Quote
-                  </Link>
-                </Button>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 pt-6 sm:pt-8">
-                <Card className="text-center hover:shadow-xs transition-shadow">
-                  <CardContent className="pt-6">
-                    <div className="text-3xl sm:text-4xl font-bold text-primary">99.9%</div>
-                    <div className="text-sm text-muted-foreground mt-1">Filtration Efficiency</div>
-                  </CardContent>
-                </Card>
-                <Card className="text-center hover:shadow-xs transition-shadow">
-                  <CardContent className="pt-6">
-                    <div className="text-3xl sm:text-4xl font-bold text-primary">10+</div>
-                    <div className="text-sm text-muted-foreground mt-1">Product Categories</div>
-                  </CardContent>
-                </Card>
-                <Card className="text-center hover:shadow-xs transition-shadow">
-                  <CardContent className="pt-6">
-                    <div className="text-3xl sm:text-4xl font-bold text-primary">50+</div>
-                    <div className="text-sm text-muted-foreground mt-1">Applications</div>
-                  </CardContent>
-                </Card>
-              </div>
-            </div>
-            
-            <Card className="overflow-hidden hover:shadow-xs transition-shadow p-0">
-              <div className="aspect-[4/3] w-full overflow-hidden">
-                <Image
-                  src="/placeholder.svg"
-                  alt="Hero image placeholder"
-                  width={800}
-                  height={600}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </Card>
-          </div>
-        </PageContainer>
-      </section>
+      {/* Hero Carousel Section */}
+      <HeroCarousel />
 
       {/* Company Advantages */}
       <section className="section-secondary py-12 lg:py-16">
@@ -136,7 +73,7 @@ export default async function Home() {
                 <CardHeader className="space-y-4">
                   {/* Category Image */}
                   <div className="aspect-square w-full overflow-hidden rounded-lg bg-muted">
-                    <Image
+                    <ImageWithFallback
                       src={category.categoryImage || "/placeholder.svg"}
                       alt={category.name}
                       width={400}
@@ -155,7 +92,7 @@ export default async function Home() {
                       {category.products.length} Products
                     </Badge>
                     <Button variant="outline" size="sm" asChild>
-                      <Link href={`/products/${category.slug}`}>
+                      <Link href={`/${category.slug}`}>
                         View Products <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
                     </Button>
@@ -193,8 +130,8 @@ export default async function Home() {
                 <CardHeader className="space-y-4">
                   {/* Product Image */}
                   <div className="aspect-square w-full overflow-hidden rounded-lg bg-muted">
-                    <Image
-                      src={product.images?.[0] || "/placeholder.svg"}
+                    <ImageWithFallback
+                      src={product.images?.[0] || "/products_images/product-catagories-images/cylindrical-filter-cartridge.webp"}
                       alt={product.name}
                       width={400}
                       height={400}
@@ -233,7 +170,7 @@ export default async function Home() {
                   
                   <div className="mt-auto pt-4 border-t">
                     <Button asChild className="w-full">
-                      <Link href={`/products/${product.category}/${product.id}`}>
+                      <Link href={`/${product.category}/${product.id}`}>
                         View Details <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
                     </Button>

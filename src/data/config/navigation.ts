@@ -12,60 +12,55 @@ export const navigation = {
       children: [
         {
           title: "Polyester Air Filter Cartridge",
-          href: "/products/polyester-air-filter-cartridge",
+          href: "/polyester-air-filter-cartridge",
           description: "High-performance synthetic filter cartridges"
         },
         {
           title: "Cellulose Air Filter Cartridge", 
-          href: "/products/cellulose-air-filter-cartridge",
+          href: "/cellulose-air-filter-cartridge",
           description: "Environmentally-friendly cellulose filters"
         },
         {
           title: "Gas Turbine Air Intake Filters",
-          href: "/products/gas-turbine-air-intake-filters", 
+          href: "/gas-turbine-air-intake-filters", 
           description: "Specialized filters for turbine protection"
         },
         {
           title: "Metal Pleated Bag Filters",
-          href: "/products/metal-pleated-bag-filters",
+          href: "/metal-pleated-bag-filters",
           description: "Advanced pleated bag filters with metal support"
         },
         {
           title: "PU Pleated Bag Filters",
-          href: "/products/pu-pleated-bag-filters",
+          href: "/pu-pleated-bag-filters",
           description: "Polyurethane pleated bag filters"
         },
         {
           title: "Panel Air Filters",
-          href: "/products/panel-air-filters",
+          href: "/panel-air-filters",
           description: "Flat panel filters for HVAC applications"
         },
         {
           title: "Air Filter Media",
-          href: "/products/air-filter-media",
+          href: "/air-filter-media",
           description: "Raw filter media materials and rolls"
         },
         {
           title: "Fiberglass Filter Media", 
-          href: "/products/fiberglass-filter-media",
+          href: "/fiberglass-filter-media",
           description: "High temperature fiberglass media"
         },
         {
           title: "Cartridge Dust Catcher",
-          href: "/products/cartridge-dust-catcher",
+          href: "/cartridge-dust-catcher",
           description: "Complete dust collection equipment"
         },
         {
           title: "Dust Collector System",
-          href: "/products/dust-collector-system",
+          href: "/dust-collector-system",
           description: "Industrial dust collection systems"
         }
       ]
-    },
-    {
-      title: "Applications",
-      href: "/applications",
-      description: "Industries and applications we serve"
     },
     {
       title: "About",
@@ -88,11 +83,11 @@ export const navigation = {
         },
         {
           title: "Dust Collectors",
-          href: "/products/dust-collector-system"
+          href: "/dust-collector-system"
         },
         {
           title: "Filter Media",
-          href: "/products/air-filter-media"
+          href: "/air-filter-media"
         }
       ]
     },

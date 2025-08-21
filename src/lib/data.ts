@@ -26,7 +26,6 @@ import { cartridgeDustCatcher } from '../data/products/cartridge-dust-catcher';
 import { dustCollectorSystem } from '../data/products/dust-collector-system';
 import { companyInfo } from '../data/company/info';
 import { companyAdvantages } from '../data/company/advantages';
-import { applications } from '../data/config/applications';
 import { filterMedia } from '../data/config/filter-media';
 import { navigation } from '../data/config/navigation';
 
@@ -313,10 +312,6 @@ async function generateFilterOptions(products: Product[]): Promise<SearchResults
 // CONFIGURATION DATA
 // =============================================================================
 
-export async function getApplications(): Promise<string[]> {
-  return [...applications];
-}
-
 export async function getFilterMedia(): Promise<string[]> {
   return [...filterMedia];
 }
@@ -378,11 +373,11 @@ export function slugify(text: string): string {
 }
 
 export function generateProductUrl(category: string, productId: string): string {
-  return `/products/${category}/${productId}`;
+  return `/${category}/${productId}`;
 }
 
 export function generateCategoryUrl(categorySlug: string): string {
-  return `/products/${categorySlug}`;
+  return `/${categorySlug}`;
 }
 
 // =============================================================================

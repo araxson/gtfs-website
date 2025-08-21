@@ -150,7 +150,7 @@ export function NavbarSearch() {
                       {results.map((product) => (
                         <CommandItem key={product.id} asChild>
                           <Link
-                            href={`/products/${product.category}/${product.id}`}
+                            href={`/${product.category}/${product.id}`}
                             className="flex items-start space-x-3 p-3 hover:bg-accent cursor-pointer"
                             onClick={handleProductClick}
                           >

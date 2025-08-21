@@ -30,7 +30,8 @@ export function SiteFooter({ footerNav }: SiteFooterProps) {
                 alt="Global Tech Fluid Services Logo"
                 width={96}
                 height={32}
-                className="h-8 w-auto sm:h-10"
+                className="h-8 w-auto sm:h-10 object-contain"
+                style={{ aspectRatio: 'auto' }}
               />
               <div>
                 <h3 className="text-lg font-semibold text-foreground">
