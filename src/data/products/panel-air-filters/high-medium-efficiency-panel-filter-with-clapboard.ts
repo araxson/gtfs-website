@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const highMediumEfficiencyPanelFilterWithClapboard: Product = {
-  id: "high-medium-efficiency-panel-filter-with-clapboard-pd40125156",
+  id: "high-medium-efficiency-panel-filter-with-clapboard",
   name: "High Medium Efficiency Panel Filter with Clapboard",
   productType: "High Medium Efficiency Panel Filter with Clapboard",
   model: "SFF/H592100",

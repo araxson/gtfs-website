@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const gasTurbineAirIntakeFilterCartridge: Product = {
-  id: "gas-turbine-air-intake-filter-cartridge-pd45958806",
+  id: "gas-turbine-air-intake-filter-cartridge",
   name: "Gas Turbine Air Intake Filter Cartridge",
   productType: "Gas Turbine Air Intake Filter Cartridge",
   model: "SFF/Z3266",

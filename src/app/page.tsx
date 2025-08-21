@@ -36,7 +36,7 @@ export default async function Home() {
               const Icon = icons[index % icons.length];
               
               return (
-                <Card key={advantage.title} className="text-center h-full hover:shadow-xs transition-shadow duration-200">
+                <Card key={advantage.title} className="text-center h-full">
                   <CardHeader className="space-y-4">
                     <div className="mx-auto h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center">
                       <Icon className="h-8 w-8 text-primary" />
@@ -69,7 +69,7 @@ export default async function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             {gtfsData.categories.slice(0, 6).map((category) => (
-              <Card key={category.id} className="h-full flex flex-col hover:shadow-xs transition-shadow duration-200">
+              <Card key={category.id} className="h-full flex flex-col">
                 <CardHeader className="space-y-4">
                   {/* Category Image */}
                   <div className="aspect-square w-full overflow-hidden rounded-lg bg-muted">
@@ -103,7 +103,7 @@ export default async function Home() {
           </div>
           
           <div className="text-center mt-12">
-            <Button size="lg" asChild className="shadow-xs hover:shadow-xs transition-all">
+            <Button size="lg" asChild>
               <Link href="/products">
                 View All Categories <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
@@ -126,7 +126,7 @@ export default async function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             {featuredProducts.map((product) => (
-              <Card key={product.id} className="h-full flex flex-col hover:shadow-xs transition-shadow duration-200">
+              <Card key={product.id} className="h-full flex flex-col">
                 <CardHeader className="space-y-4">
                   {/* Product Image */}
                   <div className="aspect-square w-full overflow-hidden rounded-lg bg-muted">
@@ -194,7 +194,7 @@ export default async function Home() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
-            <Card className="hover:shadow-xs transition-shadow duration-200">
+            <Card>
               <CardHeader className="space-y-4">
                 <CardTitle className="flex items-center text-2xl">
                   <Award className="mr-3 h-6 w-6 text-primary" />
@@ -213,7 +213,7 @@ export default async function Home() {
               </CardContent>
             </Card>
             
-            <Card className="hover:shadow-xs transition-shadow duration-200">
+            <Card>
               <CardHeader className="space-y-4">
                 <CardTitle className="flex items-center text-2xl">
                   <Users className="mr-3 h-6 w-6 text-primary" />
@@ -248,12 +248,12 @@ export default async function Home() {
                   Contact our experts today to discuss your specific filtration needs and get a customized quote.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-                  <Button size="lg" variant="outline" asChild className="text-lg font-medium px-8 shadow-xs hover:shadow-xs transition-shadow bg-background text-foreground border-background hover:bg-background/90">
+                  <Button size="lg" variant="outline" asChild className="text-lg font-medium px-8 bg-background text-foreground border-background hover:bg-background/90">
                     <Link href="/contact">
                       Get Custom Quote
                     </Link>
                   </Button>
-                  <Button size="lg" variant="outline" asChild className="text-lg font-medium px-8 border hover:shadow-xs transition-shadow bg-transparent text-background border-background hover:bg-background/10">
+                  <Button size="lg" variant="outline" asChild className="text-lg font-medium px-8 border bg-transparent text-background border-background hover:bg-background/10">
                     <Link href="/products">
                       Browse Catalog
                     </Link>

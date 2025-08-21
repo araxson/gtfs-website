@@ -15,7 +15,7 @@
 
 Bag Panel FilterCan be applicable for seperating tiny dust particulate in general ventilation system. (1) Unique chemical fibre filter media, offer stable efficiency in useful lifetime.(2) Outside frame is made of zinc galvanizing plate or aluminium alloys.(3) Optimize V-shape filter bag structure, low resistance, long useful life.Specification: parametersFT/F3FT/F4FT/F5FT/F6FT/F7FT/F8Filter GradeG3G4F5F6F7F8 Arrestance(%)82%90%96%＞98%＞98%＞99% Bag length(mm)360360650600600600Initial resistance25-3535-5070-10040-5550-7080-105(Rated air flow volume)(Pa)Specification: parametersFT/G5FT/G6FT/G7FT/G8Filter GradeF5F6F7F8 Arrestance(%)96%＞98%＞98%＞99% Dust-spot Efficiency(%)55%65%85%95%Bag length(mm)650600600600Initial resistance70-10040-5550-7080-105(Rated volume)(Pa)
 
-**Source:** https://www.forstfilter.com/Bag-Panel-Pre-Filter-pd41515156.html
+**Source:** https://www.forstfilter.com/bag-panel-pre-filter.html
 **Extracted:** 2025-08-19 20:49:13
 
 Bag Panel Pre Filter 

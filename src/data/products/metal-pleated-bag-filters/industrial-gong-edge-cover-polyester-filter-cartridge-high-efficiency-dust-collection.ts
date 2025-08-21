@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const industrialGongEdgeCoverPolyesterFilterCartridgeHighEfficiencyDustCollection: Product = {
-  id: "industrial-gong-edge-cover-polyester-filter-cartridge-high-efficiency-dust-collection-pd555412548",
+  id: "industrial-gong-edge-cover-polyester-filter-cartridge-high-efficiency-dust-collection",
   name: "Industrial Gong Edge Cover Polyester Filter Cartridge–High Efficiency Dust Collection",
   productType: "Industrial Gong Edge Cover Polyester Filter Cartridge–High Efficiency Dust Collection",
   model: "-",

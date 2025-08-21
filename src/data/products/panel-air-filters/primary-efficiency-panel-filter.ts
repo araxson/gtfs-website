@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const primaryEfficiencyPanelFilter: Product = {
-  id: "primary-efficiency-panel-filter-pd40325156",
+  id: "primary-efficiency-panel-filter",
   name: "Primary Efficiency Panel Filter",
   productType: "Primary Efficiency Panel Filter",
   model: "595×595×46 300×300×46Filter GradeG3G4G3G4 Rated air lowlume(m3/h)3400340018001800Arrestance(%)83908390Initial resistance(Pa)20302030Final resistance(Pa)200200200200Dust Capacity 460490250280 Previous: Next: Primary Efficiency Panel Filter Primary Efficiency Panel Primary Efficiency Filter Panel Filter Primary Panel Filter Efficiency Panel Filter",

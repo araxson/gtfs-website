@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const bagPanelPreFilter: Product = {
-  id: "bag-panel-pre-filter-pd41515156",
+  id: "bag-panel-pre-filter",
   name: "Bag Panel Pre Filter",
   productType: "Bag Panel Pre Filter",
   model: "SFF/P592600",

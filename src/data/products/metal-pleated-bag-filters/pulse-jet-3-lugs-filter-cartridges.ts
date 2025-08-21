@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const pulseJet3LugsFilterCartridges: Product = {
-  id: "pulse-jet-3-lugs-filter-cartridges-pd567330258",
+  id: "pulse-jet-3-lugs-filter-cartridges",
   name: "Pulse Jet 3 Lugs Filter Cartridges",
   productType: "Pulse Jet 3 Lugs Filter Cartridges",
   model: "-",

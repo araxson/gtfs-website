@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const highEfficiencySquareCapClampDustCollectorFilterCartridgeDurablePolyesterQuickInstallationLongServiceLife: Product = {
-  id: "high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life-pd581981548",
+  id: "high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life",
   name: "High-Efficiency Square Cap Clamp Dust Collector Filter Cartridge | Durable Polyester,   productType: ",
   productType: "High-Efficiency Square Cap Clamp Dust Collector Filter Cartridge | Durable Polyester,   model: ",
   model: "-",

@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const hepaPanelAirFilterWithoutClapboard: Product = {
-  id: "hepa-panel-air-filter-without-clapboard-pd41925156",
+  id: "hepa-panel-air-filter-without-clapboard",
   name: "HEPA Panel Air Filter without Clapboard",
   productType: "HEPA Panel Air Filter without Clapboard",
   model: "SFF/H592100",

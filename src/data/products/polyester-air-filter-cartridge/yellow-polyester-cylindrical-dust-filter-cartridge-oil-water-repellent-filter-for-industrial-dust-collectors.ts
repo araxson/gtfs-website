@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const yellowPolyesterCylindricalDustFilterCartridgeOilWaterRepellentFilterForIndustrialDustCollectors: Product = {
-  id: "yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors-pd560002648",
+  id: "yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors",
   name: "Yellow Polyester Cylindrical Dust Filter Cartridge | Oil-Water Repellent Filter for Industrial Dust Collectors",
   productType: "Yellow Polyester Cylindrical Dust Filter Cartridge | Oil-Water Repellent Filter for Industrial Dust Collectors",
   model: "-",

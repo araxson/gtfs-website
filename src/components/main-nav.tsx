@@ -92,7 +92,7 @@ export function MainNav({ items }: MainNavProps) {
       <div className="md:hidden">
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="ghost" size="sm" className="px-3 py-2 h-auto hover:bg-accent hover:text-accent-foreground transition-colors">
+            <Button variant="ghost" size="sm" className="px-3 py-2 h-auto hover:bg-accent hover:text-accent-foreground">
               <span className="text-sm font-medium">Menu</span>
             </Button>
           </DropdownMenuTrigger>
@@ -113,7 +113,7 @@ export function MainNav({ items }: MainNavProps) {
                         <DropdownMenuItem key={child.title} asChild>
                           <Link 
                             href={child.href || "#"} 
-                            className="w-full block px-3 py-2 text-sm font-medium cursor-pointer hover:bg-accent hover:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground rounded-sm transition-colors"
+                            className="w-full block px-3 py-2 text-sm font-medium cursor-pointer hover:bg-accent hover:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground rounded-sm"
                           >
                             {child.title}
                           </Link>
@@ -125,7 +125,7 @@ export function MainNav({ items }: MainNavProps) {
                   <DropdownMenuItem asChild>
                     <Link 
                       href={item.href || "#"} 
-                      className="w-full block px-3 py-2 text-sm font-medium cursor-pointer hover:bg-accent hover:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground rounded-sm transition-colors"
+                      className="w-full block px-3 py-2 text-sm font-medium cursor-pointer hover:bg-accent hover:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground rounded-sm"
                     >
                       {item.title}
                     </Link>
@@ -138,7 +138,7 @@ export function MainNav({ items }: MainNavProps) {
             <DropdownMenuItem asChild>
               <Link 
                 href="/contact" 
-                className="w-full block px-3 py-2 text-sm font-medium cursor-pointer hover:bg-primary hover:text-primary-foreground data-[highlighted]:bg-primary data-[highlighted]:text-primary-foreground rounded-sm transition-colors"
+                className="w-full block px-3 py-2 text-sm font-medium cursor-pointer hover:bg-primary hover:text-primary-foreground data-[highlighted]:bg-primary data-[highlighted]:text-primary-foreground rounded-sm"
               >
                 Contact Us
               </Link>
@@ -146,7 +146,7 @@ export function MainNav({ items }: MainNavProps) {
             <DropdownMenuItem asChild>
               <Link 
                 href="/contact" 
-                className="w-full block px-3 py-2 text-sm font-medium cursor-pointer hover:bg-accent hover:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground rounded-sm transition-colors"
+                className="w-full block px-3 py-2 text-sm font-medium cursor-pointer hover:bg-accent hover:text-accent-foreground data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground rounded-sm"
               >
                 Get Quote
               </Link>
@@ -168,7 +168,7 @@ const ListItem = React.forwardRef<
         <a
           ref={ref}
           className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
             className
           )}
           {...props}

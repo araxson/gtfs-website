@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const forstHighEfficiencyIndustrialDustCollectorReplacementFilterCelluloseFilterCartridge: Product = {
-  id: "forst-high-efficiency-industrial-dust-collector-replacement-filter-cellulose-filter-cartridge-pd561312548",
+  id: "forst-high-efficiency-industrial-dust-collector-replacement-filter-cellulose-filter-cartridge",
   name: "Forst High Efficiency Industrial Dust Collector Replacement Filter Cellulose Filter Cartridge",
   productType: "Forst High Efficiency Industrial Dust Collector Replacement Filter Cellulose Filter Cartridge",
   model: "-",

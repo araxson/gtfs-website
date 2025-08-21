@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const forstFiberglassAirFilter: Product = {
-  id: "forst-fiberglass-air-filter-pd558982168",
+  id: "forst-fiberglass-air-filter",
   name: "Forst Fiberglass Air Filter",
   productType: "Forst Fiberglass Air Filter",
   model: "SFF/A3266 Fiberglass Filter Media",

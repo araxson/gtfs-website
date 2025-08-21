@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const pulseJet4LugsCartridges: Product = {
-  id: "pulse-jet-4-lugs-cartridges-pd573330258",
+  id: "pulse-jet-4-lugs-cartridges",
   name: "Pulse Jet 4 Lugs Cartridges",
   productType: "Pulse Jet 4 Lugs Cartridges",
   model: "-",

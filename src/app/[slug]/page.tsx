@@ -184,7 +184,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product) => (
-            <Card key={product.id} className="group h-full flex flex-col hover:shadow-xs transition-shadow">
+            <Card key={product.id} className="group h-full flex flex-col">
               <CardHeader>
                 {/* Product Image */}
                 <div className="aspect-square w-full overflow-hidden rounded-lg bg-muted mb-4">

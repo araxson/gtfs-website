@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const cylindricalPolyesterFilterCartridgeForIndustrialDustCollectorsHighEfficiencyCustomizable: Product = {
-  id: "cylindrical-polyester-filter-cartridge-for-industrial-dust-collectors-high-efficiency-customizable-pd559402648",
+  id: "cylindrical-polyester-filter-cartridge-for-industrial-dust-collectors-high-efficiency-customizable",
   name: "Cylindrical Polyester Filter Cartridge for Industrial Dust Collectors | High Efficiency & Customizable",
   productType: "Cylindrical Polyester Filter Cartridge for Industrial Dust Collectors | High Efficiency & Customizable",
   model: "-",

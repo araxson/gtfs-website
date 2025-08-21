@@ -97,7 +97,7 @@ Relative moisture(max)
 100
 
 ENN779：Suitable for air filter used for   ventilation and air condition (equivalent to ASHRAE standard 52-76)
-**Source:** https://www.forstfilter.com/High-Medium-Efficiency-Panel-Filter-with-Clapboard-pd40125156.html
+**Source:** https://www.forstfilter.com/high-medium-efficiency-panel-filter-with-clapboard.html
 **Extracted:** 2025-08-19 20:49:16
 High/Medium Efficiency Panel Filter with Clapboard 
 Share to:sharethis sharing button

@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const durablePolyesterAirFilterCartridgeForIndustrialDustCollectors: Product = {
-  id: "durable-polyester-air-filter-cartridge-for-industrial-dust-collectors-pd584002648",
+  id: "durable-polyester-air-filter-cartridge-for-industrial-dust-collectors",
   name: "Durable Polyester Air Filter Cartridge for Industrial Dust Collectors",
   productType: "Durable Polyester Air Filter Cartridge for Industrial Dust Collectors",
   model: "-",

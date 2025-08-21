@@ -368,7 +368,7 @@ const BrandGuidelinesPage = () => {
                 <CardTitle className="text-xl text-primary">Logo Construction</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="border-2 border-dashed border-muted-foreground/30 p-4 sm:p-8 rounded-lg text-center">
+                <div className="border border-dashed border-muted-foreground/30 p-4 sm:p-8 rounded-lg text-center">
                   <div className="w-60 h-20 mx-auto flex items-center justify-center relative overflow-hidden">
                     <Image 
                       src="/gtfs-logo.png" 
@@ -411,7 +411,7 @@ const BrandGuidelinesPage = () => {
                     logoStyle: "filter hue-rotate-90"
                   },
                 ].map((item, index) => (
-                  <div key={index} className="p-4 bg-destructive/10 border-2 border-destructive/40 rounded-lg text-center relative">
+                  <div key={index} className="p-4 bg-destructive/10 border border-destructive/40 rounded-lg text-center relative">
                     
                     <div className="w-auto h-28 bg-muted rounded-lg flex items-center justify-center mb-3 overflow-hidden relative mx-auto px-4">
                       {/* Logo with incorrect transformation */}
@@ -432,7 +432,7 @@ const BrandGuidelinesPage = () => {
                       
                       {/* Large red X overlay to show this is wrong */}
                       <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="text-destructive text-3xl font-bold opacity-80 drop-shadow-lg">✕</div>
+                        <div className="text-destructive text-3xl font-bold opacity-80 drop-shadow-xs">✕</div>
                       </div>
                     </div>
                     
@@ -1227,7 +1227,7 @@ const BrandGuidelinesPage = () => {
                     <div key={index} className="space-y-4">
                       <h4 className="font-semibold text-primary">{item.context}</h4>
                       <Alert>
-                        <CheckCircle className="h-4 w-4 text-green-600" />
+                        <CheckCircle className="h-4 w-4 text-primary" />
                         <AlertDescription className="text-sm">{item.do}</AlertDescription>
                       </Alert>
                       <Alert variant="destructive">
@@ -1502,7 +1502,7 @@ const BrandGuidelinesPage = () => {
                   ].map((rule, index) => (
                     <div key={index} className="flex items-center space-x-3">
                       {rule.type === 'do' ? (
-                        <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
+                        <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
                       ) : (
                         <XCircle className="w-5 h-5 text-destructive flex-shrink-0" />
                       )}
@@ -1529,7 +1529,7 @@ const BrandGuidelinesPage = () => {
                   ].map((rule, index) => (
                     <div key={index} className="flex items-center space-x-3">
                       {rule.type === 'do' ? (
-                        <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
+                        <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
                       ) : (
                         <XCircle className="w-5 h-5 text-destructive flex-shrink-0" />
                       )}
@@ -1556,7 +1556,7 @@ const BrandGuidelinesPage = () => {
                   ].map((rule, index) => (
                     <div key={index} className="flex items-center space-x-3">
                       {rule.type === 'do' ? (
-                        <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
+                        <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
                       ) : (
                         <XCircle className="w-5 h-5 text-destructive flex-shrink-0" />
                       )}
@@ -1588,7 +1588,7 @@ const BrandGuidelinesPage = () => {
                           'File formats appropriate for use',
                         ].map((item, index) => (
                           <li key={index} className="flex items-center space-x-3">
-                            <div className="w-4 h-4 border-2 border-muted-foreground/30 rounded"></div>
+                            <div className="w-4 h-4 border border-muted-foreground/30 rounded"></div>
                             <span className="text-sm text-muted-foreground">{item}</span>
                           </li>
                         ))}
@@ -1606,7 +1606,7 @@ const BrandGuidelinesPage = () => {
                           'Backup files archived properly',
                         ].map((item, index) => (
                           <li key={index} className="flex items-center space-x-3">
-                            <div className="w-4 h-4 border-2 border-muted-foreground/30 rounded"></div>
+                            <div className="w-4 h-4 border border-muted-foreground/30 rounded"></div>
                             <span className="text-sm text-muted-foreground">{item}</span>
                           </li>
                         ))}

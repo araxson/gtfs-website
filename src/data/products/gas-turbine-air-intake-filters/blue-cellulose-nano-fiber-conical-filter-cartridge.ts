@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const blueCelluloseNanoFiberConicalFilterCartridge: Product = {
-  id: "blue-cellulose-nano-fiber-conical-filter-cartridge-pd517471268",
+  id: "blue-cellulose-nano-fiber-conical-filter-cartridge",
   name: "Blue Cellulose Nano Fiber Conical filter cartridge",
   productType: "Blue Cellulose Nano Fiber Conical filter cartridge",
   model: "SFF/Z3266",

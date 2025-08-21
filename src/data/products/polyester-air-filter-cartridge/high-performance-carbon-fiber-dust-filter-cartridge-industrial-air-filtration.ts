@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const highPerformanceCarbonFiberDustFilterCartridgeIndustrialAirFiltration: Product = {
-  id: "high-performance-carbon-fiber-dust-filter-cartridge-industrial-air-filtration-pd595991648",
+  id: "high-performance-carbon-fiber-dust-filter-cartridge-industrial-air-filtration",
   name: "High-Performance Carbon Fiber Dust Filter Cartridge | Industrial Air Filtration",
   productType: "High-Performance Carbon Fiber Dust Filter Cartridge | Industrial Air Filtration",
   model: "-",

@@ -19,7 +19,7 @@ export function SiteFooter({ footerNav }: SiteFooterProps) {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <footer className="border-t bg-muted/20">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 lg:py-16">
         <div className="grid grid-cols-1 gap-8 sm:gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* Company Info */}
@@ -65,7 +65,7 @@ export function SiteFooter({ footerNav }: SiteFooterProps) {
                 <Mail className="h-4 w-4 text-muted-foreground flex-shrink-0" />
                 <Link 
                   href="mailto:info@gtfservices.ca" 
-                  className="text-muted-foreground hover:text-foreground transition-colors"
+                  className="text-muted-foreground hover:text-foreground"
                 >
                   info@gtfservices.ca
                 </Link>
@@ -74,7 +74,7 @@ export function SiteFooter({ footerNav }: SiteFooterProps) {
                 <Globe className="h-4 w-4 text-muted-foreground flex-shrink-0" />
                 <Link 
                   href="https://www.gtfservices.ca" 
-                  className="text-muted-foreground hover:text-foreground transition-colors"
+                  className="text-muted-foreground hover:text-foreground"
                 >
                   www.gtfservices.ca
                 </Link>
@@ -93,7 +93,7 @@ export function SiteFooter({ footerNav }: SiteFooterProps) {
                   <li key={item.title}>
                     <Link
                       href={item.href}
-                      className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                      className="text-sm text-muted-foreground hover:text-foreground"
                     >
                       {item.title}
                     </Link>
@@ -114,13 +114,13 @@ export function SiteFooter({ footerNav }: SiteFooterProps) {
           <div className="flex items-center space-x-4">
             <Link 
               href="/privacy" 
-              className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+              className="text-xs text-muted-foreground hover:text-foreground"
             >
               Privacy Policy
             </Link>
             <Link 
               href="/terms" 
-              className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+              className="text-xs text-muted-foreground hover:text-foreground"
             >
               Terms of Service
             </Link>

@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const highEfficiencyPuEndCapDustCollectorFilterCartridgePolyurethaneSealLongServiceLifeEasyInstallation: Product = {
-  id: "high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation-pd515881548",
+  id: "high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation",
   name: "High-Efficiency PU End Cap Dust Collector Filter Cartridge | Polyurethane Seal,   productType: ",
   productType: "High-Efficiency PU End Cap Dust Collector Filter Cartridge | Polyurethane Seal,   model: ",
   model: "-",

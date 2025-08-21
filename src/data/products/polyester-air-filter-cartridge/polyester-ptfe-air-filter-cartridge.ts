@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const polyesterPtfeAirFilterCartridge: Product = {
-  id: "polyester-ptfe-air-filter-cartridge-pd44845016",
+  id: "polyester-ptfe-air-filter-cartridge",
   name: "Polyester+PTFE Air Filter Cartridge",
   productType: "Polyester+PTFE Air Filter Cartridge",
   model: "SFF/F3266",

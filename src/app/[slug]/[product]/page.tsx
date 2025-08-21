@@ -617,7 +617,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                     {product.applications.filter(app => app !== "-").map((application) => (
                       <div
                         key={application}
-                        className="p-3 rounded-lg border bg-card hover:bg-accent"
+                        className="p-3 rounded-lg border bg-muted/50 hover:bg-muted/70"
                       >
                         <div className="text-sm font-medium">{application}</div>
                       </div>

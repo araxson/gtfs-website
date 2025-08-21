@@ -67,8 +67,8 @@
   --destructive: oklch(0.62 0.22 25);
   --destructive-foreground: oklch(0.99 0 0);
   /* UI scaffolding */
-  --border: oklch(0.94 0.005 255/30%); /* Much lighter borders */
-  --border-light: oklch(0.97 0.003 255/20%); /* Very subtle light borders */
+  --border: oklch(0.94 0.005 255/60%); /* Much lighter borders */
+  --border-light: oklch(0.97 0.003 255/40%); /* Very subtle light borders */
   --input: oklch(0.96 0.005 255); /* Lighter input backgrounds */
   --ring: oklch(0.45 0.12 180/80%); /* Softer focus rings */
   /* Data viz */

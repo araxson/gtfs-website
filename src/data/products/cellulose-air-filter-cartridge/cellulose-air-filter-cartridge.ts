@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const celluloseAirFilterCartridge: Product = {
-  id: "cellulose-air-filter-cartridge-pd49645016",
+  id: "cellulose-air-filter-cartridge",
   name: "Cellulose Air Filter Cartridge",
   productType: "Cellulose Air Filter Cartridge",
   model: "SFF/Z3266",

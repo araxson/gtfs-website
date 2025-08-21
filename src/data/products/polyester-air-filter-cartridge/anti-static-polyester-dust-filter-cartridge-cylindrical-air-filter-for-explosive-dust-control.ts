@@ -1,7 +1,7 @@
 import { Product } from '../../../lib/types';
 
 export const antiStaticPolyesterDustFilterCartridgeCylindricalAirFilterForExplosiveDustControl: Product = {
-  id: "anti-static-polyester-dust-filter-cartridge-cylindrical-air-filter-for-explosive-dust-control-pd506791648",
+  id: "anti-static-polyester-dust-filter-cartridge-cylindrical-air-filter-for-explosive-dust-control",
   name: "Anti-Static Polyester Dust Filter Cartridge | Cylindrical Air Filter for Explosive Dust Control",
   productType: "Anti-Static Polyester Dust Filter Cartridge | Cylindrical Air Filter for Explosive Dust Control",
   model: "-",

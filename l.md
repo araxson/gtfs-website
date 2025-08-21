@@ -12,43 +12,43 @@ https://www.forstfilter.com/Gas-Turbine-Air-Intake-Filters-pl42298197.html
 
 
 #Polyester Air Filter Cartridge
-https://www.forstfilter.com/Anti-Static-Polyester-Dust-Filter-Cartridge-Cylindrical-Air-Filter-for-Explosive-Dust-Control-pd506791648.html
-https://www.forstfilter.com/High-Performance-Carbon-Fiber-Dust-Filter-Cartridge-Industrial-Air-Filtration-pd595991648.html
-https://www.forstfilter.com/Yellow-Polyester-Cylindrical-Dust-Filter-Cartridge-Oil-Water-Repellent-Filter-for-Industrial-Dust-Collectors-pd560002648.html
-https://www.forstfilter.com/Durable-Polyester-Air-Filter-Cartridge-for-Industrial-Dust-Collectors-pd584002648.html
-https://www.forstfilter.com/Cylindrical-Polyester-Filter-Cartridge-for-Industrial-Dust-Collectors-High-Efficiency-Customizable-pd559402648.html
-https://www.forstfilter.com/Pulse-Jet-4-Lugs-Cartridges-pd573330258.html
+https://www.forstfilter.com/anti-static-polyester-dust-filter-cartridge-cylindrical-air-filter-for-explosive-dust-control.html
+https://www.forstfilter.com/high-performance-carbon-fiber-dust-filter-cartridge-industrial-air-filtration.html
+https://www.forstfilter.com/yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors.html
+https://www.forstfilter.com/durable-polyester-air-filter-cartridge-for-industrial-dust-collectors.html
+https://www.forstfilter.com/cylindrical-polyester-filter-cartridge-for-industrial-dust-collectors-high-efficiency-customizable.html
+https://www.forstfilter.com/pulse-jet-4-lugs-cartridges.html
 https://www.forstfilter.com/twist-lock-cartridge.html
 https://www.forstfilter.com/blue-polyester-air-filter-cartridge.html
 https://www.forstfilter.com/industrial-welding-fume-powder-dust-cartridge-pulse-jet-polyester-air-filter-cylindrical-hepa-cartridge.html
 https://www.forstfilter.com/polyester-anti-static-air-filter-cartridge.html
-https://www.forstfilter.com/Polyester-PTFE-Air-Filter-Cartridge-pd44845016.html
+https://www.forstfilter.com/polyester-ptfe-air-filter-cartridge.html
 https://www.forstfilter.com/Five-Lug-Industrial-Dust-Collector-Filter-Cartridge.html
 
 #Cellulose Air Filter Cartridge
-https://www.forstfilter.com/Forst-High-Efficiency-Industrial-Dust-Collector-Replacement-Filter-Cellulose-Filter-Cartridge-pd561312548.html
+https://www.forstfilter.com/forst-high-efficiency-industrial-dust-collector-replacement-filter-cellulose-filter-cartridge.html
 https://www.forstfilter.com/square-flange-air-filter-cartridge.html
-https://www.forstfilter.com/Cellulose-Air-Filter-Cartridge-pd49645016.html
+https://www.forstfilter.com/cellulose-air-filter-cartridge.html
 https://www.forstfilter.com/oval-air-filter-cartridge.html
 
 #Gas Turbine Air Intake Filters
 https://www.forstfilter.com/Gas-Turbine-Air-Intake-Filters-pl42298197.html
 https://www.forstfilter.com/white-cellulose-nano-fiber-conical-filter-cartridge.html
 https://www.forstfilter.com/blue-cellulose-nano-fiber-conical-air-filter-cartridge.html
-https://www.forstfilter.com/Blue-Cellulose-Nano-Fiber-Conical-filter-cartridge-pd517471268.html
-https://www.forstfilter.com/Gas-Turbine-Air-Intake-Filter-Cartridge-pd45958806.html
+https://www.forstfilter.com/blue-cellulose-nano-fiber-conical-filter-cartridge.html
+https://www.forstfilter.com/gas-turbine-air-intake-filter-cartridge.html
 
 #PU Pleated Bag Filters
 https://www.forstfilter.com/PU-Pleated-Bag-Filters-pl43739247.html
-https://www.forstfilter.com/High-Efficiency-PU-End-Cap-Dust-Collector-Filter-Cartridge-Polyurethane-Seal-Long-Service-Life-Easy-Installation-pd515881548.html
+https://www.forstfilter.com/high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation.html
 https://www.forstfilter.com/metal-top-bottom-pleated-bag-filters.html
 https://www.forstfilter.com/polyurethane-top-bottom-pleated-bag-filter.html
 
 #Panel Air Filters
-https://www.forstfilter.com/Bag-Panel-Pre-Filter-pd41515156.html
-https://www.forstfilter.com/HEPA-Panel-Air-Filter-without-Clapboard-pd41925156.html
-https://www.forstfilter.com/High-Medium-Efficiency-Panel-Filter-with-Clapboard-pd40125156.html
-https://www.forstfilter.com/Primary-Efficiency-Panel-Filter-pd40325156.html
+https://www.forstfilter.com/bag-panel-pre-filter.html
+https://www.forstfilter.com/hepa-panel-air-filter-without-clapboard.html
+https://www.forstfilter.com/high-medium-efficiency-panel-filter-with-clapboard.html
+https://www.forstfilter.com/primary-efficiency-panel-filter.html
 
 #Air Filter Media
 https://www.forstfilter.com/air-filter-raw-material-media-roll.html
@@ -57,10 +57,10 @@ https://www.forstfilter.com/anti-static-filter-paper-filter-cloth.html
 https://www.forstfilter.com/air-filter-paper-roll.html
 
 #Fiberglass Filter Media
-https://www.forstfilter.com/Forst-Filter-Fiberglass-Media-pd539640758.html
-https://www.forstfilter.com/Forst-Fiberglass-Filter-pd599640758.html
-https://www.forstfilter.com/Fiberglass-Forst-Filter-Media-pd530740758.html
-https://www.forstfilter.com/Forst-Fiberglass-Air-Filter-pd558982168.html
+https://www.forstfilter.com/forst-filter-fiberglass-media.html
+https://www.forstfilter.com/forst-fiberglass-filter.html
+https://www.forstfilter.com/fiberglass-forst-filter-media.html
+https://www.forstfilter.com/forst-fiberglass-air-filter.html
 
 #Dust Collector System
 https://www.forstfilter.com/big-capacity-lower-cost-dust-collector-equipment.html
@@ -70,9 +70,9 @@ https://www.forstfilter.com/industrial-bag-dust-collector.html
 https://www.forstfilter.com/inclined-cartridge-dust-collector.html
 
 #Metal Pleated Bag Filters
-https://www.forstfilter.com/High-Efficiency-Square-Cap-Clamp-Dust-Collector-Filter-Cartridge-Durable-Polyester-Quick-Installation-Long-Service-Life-pd581981548.html
-https://www.forstfilter.com/Industrial-Gong-Edge-Cover-Polyester-Filter-Cartridge-High-Efficiency-Dust-Collection-pd555412548.html
-https://www.forstfilter.com/Pulse-Jet-3-Lugs-Filter-Cartridges-pd567330258.html
+https://www.forstfilter.com/high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life.html
+https://www.forstfilter.com/industrial-gong-edge-cover-polyester-filter-cartridge-high-efficiency-dust-collection.html
+https://www.forstfilter.com/pulse-jet-3-lugs-filter-cartridges.html
 https://www.forstfilter.com/pleated-bag-filters.html
 
 #Cartridge Dust Catcher
