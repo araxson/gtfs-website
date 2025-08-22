@@ -77,7 +77,7 @@ export function NavbarSearch() {
     if (e.key === "Enter" && query.trim()) {
       // Navigate to search results page
       setOpen(false);
-      window.location.href = `/products?search=${encodeURIComponent(query.trim())}`;
+      window.location.href = `/polyester-air-filter-cartridge?search=${encodeURIComponent(query.trim())}`;
     } else if (e.key === "Escape") {
       setOpen(false);
       searchRef.current?.blur();
@@ -136,7 +136,7 @@ export function NavbarSearch() {
                         No products found for &ldquo;{query}&rdquo;
                       </p>
                       <Button variant="outline" size="sm" asChild>
-                        <Link href="/products">
+                        <Link href="/polyester-air-filter-cartridge">
                           Browse all products
                         </Link>
                       </Button>
@@ -151,7 +151,7 @@ export function NavbarSearch() {
                         <CommandItem key={product.id} asChild>
                           <Link
                             href={`/${product.category}/${product.id}`}
-                            className="flex items-start space-x-3 p-3 hover:bg-accent cursor-pointer"
+                            className="flex items-start space-x-3 p-3 cursor-pointer"
                             onClick={handleProductClick}
                           >
                             <div className="flex-1 min-w-0">
@@ -189,7 +189,7 @@ export function NavbarSearch() {
                       <div className="border-t p-3">
                         <Button variant="ghost" size="sm" className="w-full" asChild>
                           <Link 
-                            href={`/products?search=${encodeURIComponent(query)}`}
+                            href={`/polyester-air-filter-cartridge?search=${encodeURIComponent(query)}`}
                             onClick={clearSearch}
                           >
                             View all {totalResults} results

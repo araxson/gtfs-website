@@ -4,9 +4,31 @@ export const primaryEfficiencyPanelFilter: Product = {
   id: "primary-efficiency-panel-filter",
   name: "Primary Efficiency Panel Filter",
   productType: "Primary Efficiency Panel Filter",
-  model: "595×595×46 300×300×46Filter GradeG3G4G3G4 Rated air lowlume(m3/h)3400340018001800Arrestance(%)83908390Initial resistance(Pa)20302030Final resistance(Pa)200200200200Dust Capacity 460490250280 Previous: Next: Primary Efficiency Panel Filter Primary Efficiency Panel Primary Efficiency Filter Panel Filter Primary Panel Filter Efficiency Panel Filter",
+  model: "595×595×46 / 300×300×46",
   brand: "FORST FILTER",
-  description: "-",
+  description: "Primary efficiency panel filter for particles above 10 microns. Features imported filter cotton, adjustable structure, reusable metal frame, and eco-friendly disposal options.",
+  detailedDescription: `Primary Efficiency Panel Filter
+
+Product Overview
+This series of filter is applicable for the particulate of above 10 micron equivalent weight diameter, it can efficiently filter the dust and impurity in the air. Adopted imported primary efficiency filter cotton. Can be widely used as pre-filter in all kinds of gas inlet of air conditioning ventilation.
+
+Key Features
+(1) Adjustable structure according to customer's requirement
+(2) Discharged paper frame of air filter can disposal by burning, pollution-free
+(3) Metal frame design, can be repeatedly used
+
+Technical Specifications
+Model: 595×595×46 / 300×300×46
+
+Specifications:
+
+595×595×46:
+• G3 Filter Grade: 83% Arrestance, 3400 m³/h Rated air flow, 20 Pa Initial resistance, 200 Pa Final resistance, 460 Dust Capacity
+• G4 Filter Grade: 90% Arrestance, 3400 m³/h Rated air flow, 30 Pa Initial resistance, 200 Pa Final resistance, 490 Dust Capacity
+
+300×300×46:
+• G3 Filter Grade: 83% Arrestance, 1800 m³/h Rated air flow, 20 Pa Initial resistance, 200 Pa Final resistance, 250 Dust Capacity
+• G4 Filter Grade: 90% Arrestance, 1800 m³/h Rated air flow, 30 Pa Initial resistance, 200 Pa Final resistance, 280 Dust Capacity`,
   images: ["/products_images/panel-air-filters/primary-efficiency-panel-filter/primary-efficiency-panel-filter-001.png", "/products_images/panel-air-filters/primary-efficiency-panel-filter/primary-efficiency-panel-filter-002.png", "/products_images/panel-air-filters/primary-efficiency-panel-filter/primary-efficiency-panel-filter-003.png"],
   features: [
     "High-quality filter media",

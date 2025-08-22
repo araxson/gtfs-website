@@ -6,7 +6,8 @@ export const celluloseAirFilterCartridge: Product = {
   productType: "Cellulose Air Filter Cartridge",
   model: "SFF/Z3266",
   brand: "FORST FILTER",
-  description: "-",
+  description: "Filters out up to 99.9% of fine dust particles (≥1μm), ideal for industrial air purification systems. Renewable material, biodegradable, with long service life and low replacement cost.",
+  detailedDescription: "Suitable for the filtration of fine dust type in gas turbines, compressors, shot blast, tobacco, pulverized coal ash and floating dust collection. Widest applications for dry and granular shaped particulate in Metal working, Shot Blasting, Mining industry, Chemical, and Gas turbine applications. Model SFF/Z3266, Code 8421999090. Features: (1) Imported cellulose fiber or synthetic fiber for base media (80% cellulose and 20% polyester). (2) Excellent filter efficiency. (3) Wide pleat spacing, great filter surface. (4) Electrochemical plate top and bottom, no rust. (5) Perforated zinc galvanized metal inner core, allows good airflow. (6) Specialty chlorine rubber gasket to ensure airtight sealing. (7) Applicable temperature: 65°C. Specifications: SFF/Z3266 Φ324mm O.D, Φ213mm I.D, 660mm Length, 21m2 Filtration surface; SFF/Z3566 Φ352mm O.D, Φ241mm I.D, 660mm Length, 23m2 Filtration surface; SFF/Z3275 Φ324mm O.D, Φ213mm I.D, 750mm Length, 26m2 Filtration surface; SFF/Z3288 Φ324mm O.D, Φ213mm I.D, 880mm Length, 27m2 Filtration surface; SFF/Z3290 Φ324mm O.D, Φ213mm I.D, 915mm Length, 28m2 Filtration surface.",
   images: ["/products_images/cellulose-air-filter-cartridge/cellulose-air-filter-cartridge/cellulose-air-filter-cartridge-001.jpg", "/products_images/cellulose-air-filter-cartridge/cellulose-air-filter-cartridge/cellulose-air-filter-cartridge-002.jpg", "/products_images/cellulose-air-filter-cartridge/cellulose-air-filter-cartridge/cellulose-air-filter-cartridge-003.png", "/products_images/cellulose-air-filter-cartridge/cellulose-air-filter-cartridge/cellulose-air-filter-cartridge-004.png", "/products_images/cellulose-air-filter-cartridge/cellulose-air-filter-cartridge/cellulose-air-filter-cartridge-005.jpg", "/products_images/cellulose-air-filter-cartridge/cellulose-air-filter-cartridge/cellulose-air-filter-cartridge-006.jpg"],
   features: [
     "High-quality filter media",
@@ -18,13 +19,20 @@ export const celluloseAirFilterCartridge: Product = {
   advantages: ["-"],
   benefits: ["-"],
   applications: [
-  "Gas turbine air intake filtration"
-],
+    "Gas turbine air filtration",
+    "Compressor air intake",
+    "Shot blasting dust collection",
+    "Tobacco dust filtration",
+    "Pulverized coal ash collection",
+    "Metal working dust control",
+    "Mining industry air filtration",
+    "Chemical industry dust collection"
+  ],
   dimensions: {
-    customizable: false,
-    outerDiameter: "-",
-    innerDiameter: "-",
-    length: "-",
+    customizable: true,
+    outerDiameter: "324-352mm",
+    innerDiameter: "213-241mm",
+    length: "660-915mm",
     height: "-",
     width: "-",
     rollWidth: "-",
@@ -57,13 +65,13 @@ export const celluloseAirFilterCartridge: Product = {
     expandable: "-"
   },
   technicalSpecs: {
-    filtrationEfficiency: "≥99% @ 1.0μm",
-    operatingTemperature: "Up to 135°C",
+    filtrationEfficiency: "99.9% @ ≥1μm",
+    operatingTemperature: "Up to 65°C",
     temperatureRange: "-",
     surfaceResistance: "-",
-    filtrationSurface: "-",
+    filtrationSurface: "21-28m²",
     airflowCapacity: "-",
-    materialType: "-",
+    materialType: "80% Cellulose + 20% Polyester",
     airPermeability: "-",
     tensileStrength: "-",
     wetStrength: "-",
@@ -71,8 +79,8 @@ export const celluloseAirFilterCartridge: Product = {
     basisWeight: "-",
     chemicalResistance: "-",
     dimensionalStability: "-",
-    serviceLife: "-",
-    specialProperties: "-",
+    serviceLife: "Long service life",
+    specialProperties: "Biodegradable, renewable material",
     initialPressureDrop: "-",
     dustHoldingCapacity: "-",
     thermalStability: "-",
@@ -80,7 +88,7 @@ export const celluloseAirFilterCartridge: Product = {
     saltResistance: "-",
     mountingType: "-",
     mechanicalStrength: "-",
-    minimumParticleSize: "-",
+    minimumParticleSize: "1μm",
     suctionPower: "-",
     motorPower: "-",
     mobility: "-",
@@ -108,11 +116,11 @@ export const celluloseAirFilterCartridge: Product = {
     flexibility: "-"
   },
   materials: {
-    filterMedia: "Premium filter materials",
-    construction: "-",
-    endCap: "-",
-    gasket: "-",
-    core: "-",
+    filterMedia: "Cellulose fiber and synthetic fiber (80% cellulose + 20% polyester)",
+    construction: "Electrochemical plated top and bottom",
+    endCap: "Electrochemical plated metal",
+    gasket: "Specialty chlorine rubber gasket",
+    core: "Perforated zinc galvanized metal inner core",
     additives: "-",
     treatment: "-",
     baseMedia: "-",
@@ -155,7 +163,7 @@ export const celluloseAirFilterCartridge: Product = {
     moistureResistant: false,
     conductive: false,
     washable: false,
-    biodegradable: false,
+    biodegradable: true,
     chemicalResistant: false,
     temperatureResistant: false,
     highTemperature: false,
@@ -163,13 +171,43 @@ export const celluloseAirFilterCartridge: Product = {
     thermalShock: false,
     corrosionResistant: false
   },
-  availableSizes: [{
-    model: "-",
-    outerDiameter: "-",
-    innerDiameter: "-",
-    length: "-",
-    filtrationSurface: "-"
-  }],
+  availableSizes: [
+    {
+      model: "SFF/Z3266",
+      outerDiameter: "324mm",
+      innerDiameter: "213mm",
+      length: "660mm",
+      filtrationSurface: "21m²"
+    },
+    {
+      model: "SFF/Z3566",
+      outerDiameter: "352mm",
+      innerDiameter: "241mm",
+      length: "660mm",
+      filtrationSurface: "23m²"
+    },
+    {
+      model: "SFF/Z3275",
+      outerDiameter: "324mm",
+      innerDiameter: "213mm",
+      length: "750mm",
+      filtrationSurface: "26m²"
+    },
+    {
+      model: "SFF/Z3288",
+      outerDiameter: "324mm",
+      innerDiameter: "213mm",
+      length: "880mm",
+      filtrationSurface: "27m²"
+    },
+    {
+      model: "SFF/Z3290",
+      outerDiameter: "324mm",
+      innerDiameter: "213mm",
+      length: "915mm",
+      filtrationSurface: "28m²"
+    }
+  ],
   customizationOptions: ["-"],
   qualityStandards: ["-"],
   dataSheet: "-",

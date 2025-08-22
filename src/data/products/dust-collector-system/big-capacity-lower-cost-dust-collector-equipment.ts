@@ -6,7 +6,45 @@ export const bigCapacityLowerCostDustCollectorEquipment: Product = {
   productType: "Big Capacity Lower Cost Dust Collector Equipment",
   model: "-",
   brand: "FORST FILTER",
-  description: "Inclined Cartridge Dust CollectorProduct OverviewThe Inclined Cartridge Dust Collector features an innovative angled cartridge design that optimizes dust filtration efficiency and facilitates easier cleaning and maintenance. This dust collector is widely used in industries such as metallurgy, cement, pharmaceuticals, and woodworking, providing effective removal of fine and coarse dust particles. Its compact structure and advanced pulse-jet cleaning system ensure long service life and stable oper...",
+  description: "Large capacity, cost-effective dust collector with inclined cartridge design. Features pulse-jet cleaning, 99.9% efficiency, and modular construction for industrial applications.",
+  detailedDescription: `The Inclined Cartridge Dust Collector features an innovative angled cartridge design that optimizes dust filtration efficiency and facilitates easier cleaning and maintenance. This dust collector is widely used in industries such as metallurgy, cement, pharmaceuticals, and woodworking, providing effective removal of fine and coarse dust particles. Its compact structure and advanced pulse-jet cleaning system ensure long service life and stable operation even under harsh industrial conditions.
+
+Key Features:
+• Angled Cartridge Design: The inclined cartridges improve airflow distribution, reduce dust accumulation, and enhance filter lifespan.
+• High Filtration Efficiency: Removes up to 99.9% of airborne dust with high-performance filter cartridges.
+• Pulse Jet Cleaning System: Automatic, efficient cleaning ensures filters remain unclogged, maintaining consistent performance.
+• Compact & Modular Structure: Space-saving design allows easy installation and scalability.
+• Durable Construction: Made of heavy-duty steel with anti-corrosion coating for long-term industrial use.
+• Customizable Specifications: Airflow, filter quantity, and filtration area tailored to meet specific operational needs.
+
+Technical Specifications:
+• Filtration Efficiency: ≥99.9%
+• Airflow Capacity: 1000 – 25,000 m³/h (customizable)
+• Filter Type: Inclined Cartridge Filters
+• Cleaning Method: Pulse Jet Automatic Cleaning
+• Material: Carbon Steel / Stainless Steel
+• Surface Treatment: Powder Coating / Anti-corrosion Paint
+• Operating Temperature: -20°C to 120°C
+• Pressure Drop: ≤2500 Pa
+• Installation Type: Floor Mounted / Modular
+• Dimensions: Customizable
+
+Applications:
+• Cement Plants
+• Metallurgical Industry
+• Chemical Processing
+• Pharmaceutical Manufacturing
+• Woodworking Workshops
+• Food Processing Plants
+• Power Generation Facilities
+• Mining and Quarrying
+
+Why Choose Our Inclined Cartridge Dust Collector:
+• Over 10 years of experience in dust filtration technology
+• Advanced design improving efficiency and ease of maintenance
+• Durable materials and reliable pulse-jet cleaning system
+• Tailored solutions to match your industrial requirements
+• Competitive pricing with professional after-sales support`,
   images: ["/products_images/dust-collector-system/big-capacity-lower-cost-dust-collector-equipment/big-capacity-lower-cost-dust-collector-equipment-001.png", "/products_images/dust-collector-system/big-capacity-lower-cost-dust-collector-equipment/big-capacity-lower-cost-dust-collector-equipment-002.png", "/products_images/dust-collector-system/big-capacity-lower-cost-dust-collector-equipment/big-capacity-lower-cost-dust-collector-equipment-003.png", "/products_images/dust-collector-system/big-capacity-lower-cost-dust-collector-equipment/big-capacity-lower-cost-dust-collector-equipment-004.png", "/products_images/dust-collector-system/big-capacity-lower-cost-dust-collector-equipment/big-capacity-lower-cost-dust-collector-equipment-005.jpg"],
   features: [
     "Pulse jet cleaning compatible",

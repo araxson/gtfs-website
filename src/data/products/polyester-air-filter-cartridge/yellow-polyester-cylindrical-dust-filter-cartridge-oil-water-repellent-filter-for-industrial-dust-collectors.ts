@@ -6,7 +6,8 @@ export const yellowPolyesterCylindricalDustFilterCartridgeOilWaterRepellentFilte
   productType: "Yellow Polyester Cylindrical Dust Filter Cartridge | Oil-Water Repellent Filter for Industrial Dust Collectors",
   model: "-",
   brand: "FORST FILTER",
-  description: "-",
+  description: "Oil and water-repellent yellow polyester filter cartridge for humid industrial environments. Features cylindrical pleated design, pulse jet cleaning compatibility, and high visibility.",
+  detailedDescription: "This yellow polyester cylindrical dust filter cartridge is specially treated to repel oil and water, making it the ideal solution for industrial dust collection in oily and humid environments. Built with durable materials and precision pleats, it ensures reliable filtration and extended service life. Features, Advantages & Benefits: Oil- and Water-Repellent Media prevents clogging and ensures consistent airflow. Cylindrical Pleated Design maximizes filter surface area and reduces pressure drop. Galvanized or Stainless End Caps provide durability and corrosion resistance in harsh conditions. Pulse Jet Cleaning Compatible supports automatic cleaning for reduced downtime. High Visibility Yellow Surface allows easy identification and monitoring of usage. Custom Fit Available with various sizes and gasket types to match OEM requirements. Technical specifications include Yellow Polyester (Oil & Water Repellent) media with ≥99.9% @ ≥1.0μm filtration efficiency, 325 mm outer diameter (customizable), 213 mm inner diameter, 660/700mm lengths, galvanized/stainless steel end caps, expanded metal mesh inner core, PU/Neoprene/Silicone gaskets, pulse jet/manual cleaning methods, and -20°C to 120°C temperature resistance. Applications include Metal Cutting, Grinding, and Welding Fume Control, Oil Mist and Moisture-Laden Dust Collection, Automotive and Foundry Workshop Dust Filtration, Powder Coating in Humid Conditions, and Cement and Steel Plant Dust Control.",
   images: ["/products_images/polyester-air-filter-cartridge/yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors/yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors-001.png", "/products_images/polyester-air-filter-cartridge/yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors/yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors-002.png", "/products_images/polyester-air-filter-cartridge/yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors/yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors-003.png", "/products_images/polyester-air-filter-cartridge/yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors/yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors-004.png", "/products_images/polyester-air-filter-cartridge/yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors/yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors-005.png", "/products_images/polyester-air-filter-cartridge/yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors/yellow-polyester-cylindrical-dust-filter-cartridge-oil-water-repellent-filter-for-industrial-dust-collectors-006.png"],
   features: [
     "Pulse jet cleaning compatible",
@@ -57,8 +58,8 @@ export const yellowPolyesterCylindricalDustFilterCartridgeOilWaterRepellentFilte
     expandable: "-"
   },
   technicalSpecs: {
-    filtrationEfficiency: "≥99% @ 1.0μm",
-    operatingTemperature: "Up to 135°C",
+    filtrationEfficiency: "≥99.9% @ ≥1.0μm",
+    operatingTemperature: "-20°C to 120°C",
     temperatureRange: "-",
     surfaceResistance: "-",
     filtrationSurface: "-",

@@ -2,11 +2,50 @@ import { Product } from '../../../lib/types';
 
 export const highEfficiencySquareCapClampDustCollectorFilterCartridgeDurablePolyesterQuickInstallationLongServiceLife: Product = {
   id: "high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life",
-  name: "High-Efficiency Square Cap Clamp Dust Collector Filter Cartridge | Durable Polyester,   productType: ",
-  productType: "High-Efficiency Square Cap Clamp Dust Collector Filter Cartridge | Durable Polyester,   model: ",
-  model: "-",
+  name: "High-Efficiency Square Cap Clamp Dust Collector Filter Cartridge | Durable Polyester, Quick Installation, Long Service Life",
+  productType: "High-Efficiency Square Cap Clamp Dust Collector Filter Cartridge | Durable Polyester, Quick Installation, Long Service Life",
+  model: "FS-SQ-001 / FS-SQ-002 / FS-SQ-CUSTOM",
   brand: "FORST FILTER",
-  description: "-",
+  description: "High-efficiency polyester filter cartridge with square cap clamp design. Features quick installation, low maintenance, and superior durability for industrial dust collection systems.",
+  detailedDescription: `Square Cap Clamp Dust Collector Filter Cartridge High-Efficiency Polyester | Quick Installation | Forst
+
+Product Overview
+The Square Cap Clamp Dust Collector Filter Cartridge is engineered with high-strength polyester filter media and a corrosion-resistant square clamp design. Built for industrial dust collection systems, it delivers stable filtration performance, quick installation, and low maintenance — ideal for demanding work environments.
+
+Key Features
+• High-density polyester filter media
+• Square cap clamp for quick-fit installation
+• Reinforced inner & outer support cage for stability
+
+Advantages
+• Easy to install and remove without special tools
+• Low maintenance cost and long service life
+• Rugged design for heavy-duty industrial applications
+
+Benefits
+• Improves filtration efficiency and equipment lifespan
+• Enhances workplace air quality
+• Reduces machine downtime and maintenance interruptions
+
+Applications
+Perfect for metalworking, woodworking, painting, pharmaceutical, and food processing dust collectors.
+
+Technical Specifications
+Model: FS-SQ-001 / FS-SQ-002 / FS-SQ-CUSTOM
+Filter Media: Polyester
+Filtration Efficiency: ≥99.0% @ 1μm (varies by model)
+Outer Diameter: 76mm / 100mm / Customizable
+Length: 150mm – 1200mm optional
+End Cap Type: Square cap clamp
+Support Cage: Galvanized steel or stainless steel
+Seal Material: Silicone / Viton optional
+Max Operating Temperature: ≤120°C (depends on media)
+Operating Pressure: ~ -10kPa to +30kPa (reference)
+Service Life: Typically 6–18 months (depends on conditions)
+Certifications: ISO9001, material reports, and third-party test reports
+
+Customization Options
+We provide custom-made filter cartridges to fit your specific dust collection system. You can choose size and length, filter media type, end cap design, and seal material. For optimal performance, share your operating conditions such as temperature, dust type, and concentration with our engineering team.`,
   images: ["/products_images/metal-pleated-bag-filters/high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life/high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life-001.png", "/products_images/metal-pleated-bag-filters/high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life/high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life-002.png", "/products_images/metal-pleated-bag-filters/high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life/high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life-003.png", "/products_images/metal-pleated-bag-filters/high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life/high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life-004.png", "/products_images/metal-pleated-bag-filters/high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life/high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life-005.png", "/products_images/metal-pleated-bag-filters/high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life/high-efficiency-square-cap-clamp-dust-collector-filter-cartridge-durable-polyester-quick-installation-long-service-life-006.png"],
   features: [
     "Customizable dimensions and specifications"

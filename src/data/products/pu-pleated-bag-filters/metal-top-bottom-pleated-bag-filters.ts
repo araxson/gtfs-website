@@ -6,7 +6,61 @@ export const metalTopBottomPleatedBagFilters: Product = {
   productType: "Metal Top/Bottom Pleated Bag Filters",
   model: "SFF/P2000",
   brand: "FORST FILTER",
-  description: "Metal Top/Bottom Pleated Bag FiltersProduct OverviewOur Metal Top/Bottom Pleated Bag Filters are engineered for high-efficiency dust collection in industrial applications. Featuring pleated media with a metal top and bottom cap, these filters offer a larger filtration surface area compared to standard filter bags— providing longer service life, lower pressure drop, and increased airflow. Ideal for dust collectors in harsh environments such as cement, steel, foundry, woodworking, and chemical pro...",
+  description: "Metal top/bottom pleated bag filters with 3-4x larger filter area than traditional bags. Features durable metal caps and high-efficiency pleated design for industrial dust collection.",
+  detailedDescription: `Metal Top/Bottom Pleated Bag Filters
+
+Key Features
+• Filter area 3 to 4 times Larger than traditional filter bag
+• Open Pleat Spacing
+• Low consumption of compressed air (for cleaning)
+• High efficiency due to surface filtration
+
+Model: SFF/P2000
+Brand: FORST FILTER
+Code: 8421999090
+
+Product Overview
+Our Metal Top/Bottom Pleated Bag Filters are engineered for high-efficiency dust collection in industrial applications. Featuring pleated media with a metal top and bottom cap, these filters offer a larger filtration surface area compared to standard filter bags— providing longer service life, lower pressure drop, and increased airflow. Ideal for dust collectors in harsh environments such as cement, steel, foundry, woodworking, and chemical processing plants.
+
+Key Features
+• Pleated Design with Extended Surface Area: Up to 3–4 times the filtration area of traditional bag filters
+• Metal Top & Bottom Caps: Durable, corrosion-resistant, and suitable for high-temp or high-humidity conditions
+• High Filtration Efficiency: Captures ≥99.9% of fine dust particles
+• Easy Installation & Replacement: Compatible with most dust collector systems
+• Customizable Sizes and Media: Options for polyester, aramid, PTFE, and more
+
+Technical Specifications
+Filter Media: Polyester, Aramid, PPS, PTFE (customizable)
+End Cap Material: Galvanized Steel / Stainless Steel (Top & Bottom)
+Filtration Efficiency: ≥99.9% for particles ≥1μm
+Operating Temperature: Up to 120°C / 180°C / 250°C (depending on media)
+Length: 300 – 2000 mm (customizable)
+Diameter: 120 – 150 mm or tailored
+Pleat Count: 20 – 80 pleats (varies with design)
+Surface Treatment: Antistatic, Oil/Water Repellent, PTFE Coated
+Cleaning Method: Reverse Air / Pulse Jet Compatible
+
+Applications
+• Cement and Lime Industry
+• Steel and Foundry Plants
+• Chemical and Petrochemical Processing
+• Woodworking and Furniture Manufacturing
+• Food and Beverage Processing
+• Mining and Quarry Operations
+• Industrial Boilers and Incinerators
+
+Packaging & Shipping
+• Individually packed in protective plastic sleeves or cartons
+• Export-grade packaging for sea and air freight
+• Labeling customization with logo, barcode, and part number
+• Global delivery available with OEM/ODM support
+
+Why Choose Our Pleated Bag Filters?
+• Up to 4x longer lifespan vs. standard felt bags
+• Precision-engineered for optimized filtration and airflow
+• Factory-direct pricing and fast global shipping
+• Extensive media and size customization options
+• Trusted by industrial dust collection system integrators worldwide`,
   images: ["/products_images/pu-pleated-bag-filters/metal-top-bottom-pleated-bag-filters/metal-top-bottom-pleated-bag-filters-001.png", "/products_images/pu-pleated-bag-filters/metal-top-bottom-pleated-bag-filters/metal-top-bottom-pleated-bag-filters-002.jpg", "/products_images/pu-pleated-bag-filters/metal-top-bottom-pleated-bag-filters/metal-top-bottom-pleated-bag-filters-003.png", "/products_images/pu-pleated-bag-filters/metal-top-bottom-pleated-bag-filters/metal-top-bottom-pleated-bag-filters-004.jpg", "/products_images/pu-pleated-bag-filters/metal-top-bottom-pleated-bag-filters/metal-top-bottom-pleated-bag-filters-005.jpg", "/products_images/pu-pleated-bag-filters/metal-top-bottom-pleated-bag-filters/metal-top-bottom-pleated-bag-filters-006.jpg"],
   features: [
   "Anti-static properties for explosive dust environments",

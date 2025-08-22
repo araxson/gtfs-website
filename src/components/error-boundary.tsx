@@ -69,7 +69,7 @@ function DefaultErrorFallback({ error, resetError }: { error?: Error; resetError
         <CardContent className="space-y-4">
           {error && process.env.NODE_ENV === "development" && (
             <div className="p-3 bg-muted rounded-md">
-              <p className="text-sm font-mono text-destructive">{error.message}</p>
+              <p className="text-sm font-medium text-destructive">{error.message}</p>
             </div>
           )}
           <div className="flex flex-col sm:flex-row gap-2">

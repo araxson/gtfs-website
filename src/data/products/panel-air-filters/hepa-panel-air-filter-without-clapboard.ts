@@ -6,29 +6,68 @@ export const hepaPanelAirFilterWithoutClapboard: Product = {
   productType: "HEPA Panel Air Filter without Clapboard",
   model: "SFF/H592100",
   brand: "FORST FILTER",
-  description: "-",
+  description: "HEPA panel air filter without clapboard featuring fiberglass media and optimal fold design. Withstands high temperature and moisture with various frame options available.",
+  detailedDescription: `HEPA Panel Air Filter without Clapboard
+
+Features
+• Best fold shape of filtration media ensures no whirlpool airflow
+• High quality fiberglass achieves special filter efficiency and emission
+• Withstands high temperature and moisture material construction
+• Different fix depth and frame material available on standard filters
+
+Model: SFF/H592100
+Brand: FORST FILTER
+Code: 8421999090
+
+HEPA Specifications:
+
+203×203×50/65: Initial Resistance 55 Pa, Air flow 30 m³/h
+305×305×50/65: Initial Resistance 30 Pa, Air flow 90 m³/h
+610×305×50/65: Initial Resistance 300 Pa, Air flow 200 m³/h
+610×610×50/65: Initial Resistance 150/100 Pa, Final resistance 300 Pa, Air flow 600 m³/h
+610×762×50/65: Air flow 750 m³/h
+610×915×50/65: Air flow 900 m³/h
+610×1219×50/65: Air flow 1200 m³/h
+
+Test Results:
+Classification: 0.3um HOT.DOP Test - Scan Tested: Passed, 99.99% over
+Standard: 99.97% over
+
+ULPA Specifications:
+
+203×203×50/65: Initial Resistance 35/55 Pa
+305×305×50/65: Initial Resistance 90/130 Pa
+610×305×50/65: Initial Resistance 200/300 Pa
+610×610×50/65: Initial Resistance 150/100 Pa, Final resistance 300 Pa, Air flow 420/600 m³/h
+610×762×50/65: Air flow 530/750 m³/h
+610×915×50/65: Air flow 640/900 m³/h
+610×1219×50/65: Air flow 860/1200 m³/h`,
   images: ["/products_images/panel-air-filters/hepa-panel-air-filter-without-clapboard/hepa-panel-air-filter-without-clapboard-001.png", "/products_images/panel-air-filters/hepa-panel-air-filter-without-clapboard/hepa-panel-air-filter-without-clapboard-002.png", "/products_images/panel-air-filters/hepa-panel-air-filter-without-clapboard/hepa-panel-air-filter-without-clapboard-003.png"],
   features: [
-    "High-quality filter media",
-    "Excellent filtration efficiency",
-    "Durable construction",
-    "Professional grade materials"
+    "Best fold shape prevents whirlpool airflow",
+    "High quality fiberglass for special filter efficiency",
+    "Withstands high temperature and moisture",
+    "Different fix depth and frame material options",
+    "HOT.DOP test passed with 99.99% efficiency"
   ],
   specialFeatures: ["-"],
   advantages: ["-"],
   benefits: ["-"],
   applications: [
-  "Air filtration systems",
-  "Dust control applications",
-  "Manufacturing processes"
-],
+    "Clean rooms",
+    "Hospital operating rooms",
+    "Pharmaceutical manufacturing",
+    "Electronics manufacturing",
+    "Food processing facilities",
+    "Laboratory environments"
+  ],
   dimensions: {
-    customizable: false,
+    customizable: true,
     outerDiameter: "-",
     innerDiameter: "-",
     length: "-",
-    height: "-",
-    width: "-",
+    height: "50/65mm depth",
+    width: "203-1219mm",
     rollWidth: "-",
     rollLength: "-",
     sheetSize: "-",
@@ -46,7 +85,7 @@ export const hepaPanelAirFilterWithoutClapboard: Product = {
     shape: "-",
     cartridgeAngle: "-",
     specialSizes: "-",
-    standardSizes: ["-"],
+    standardSizes: ["203×203", "305×305", "610×305", "610×610", "610×762", "610×915", "610×1219"],
     heavyDuty: "-",
     capacity: "-",
     footprint: "-",
@@ -59,13 +98,13 @@ export const hepaPanelAirFilterWithoutClapboard: Product = {
     expandable: "-"
   },
   technicalSpecs: {
-    filtrationEfficiency: "≥99% @ 1.0μm",
-    operatingTemperature: "Up to 135°C",
+    filtrationEfficiency: "99.97% @ 0.3μm (HEPA), 99.99% (ULPA)",
+    operatingTemperature: "High temperature resistant",
     temperatureRange: "-",
     surfaceResistance: "-",
     filtrationSurface: "-",
-    airflowCapacity: "-",
-    materialType: "-",
+    airflowCapacity: "30-1200 m³/h depending on size",
+    materialType: "High quality fiberglass",
     airPermeability: "-",
     tensileStrength: "-",
     wetStrength: "-",
@@ -74,15 +113,15 @@ export const hepaPanelAirFilterWithoutClapboard: Product = {
     chemicalResistance: "-",
     dimensionalStability: "-",
     serviceLife: "-",
-    specialProperties: "-",
-    initialPressureDrop: "-",
+    specialProperties: "Optimal fold design prevents whirlpool airflow",
+    initialPressureDrop: "30-300 Pa depending on size",
     dustHoldingCapacity: "-",
     thermalStability: "-",
     humidity: "-",
     saltResistance: "-",
     mountingType: "-",
     mechanicalStrength: "-",
-    minimumParticleSize: "-",
+    minimumParticleSize: "0.3μm",
     suctionPower: "-",
     motorPower: "-",
     mobility: "-",
@@ -110,9 +149,9 @@ export const hepaPanelAirFilterWithoutClapboard: Product = {
     flexibility: "-"
   },
   materials: {
-    filterMedia: "Premium filter materials",
-    construction: "-",
-    endCap: "-",
+    filterMedia: "High quality fiberglass",
+    construction: "Withstands high temperature and moisture",
+    endCap: "Various frame material options",
     gasket: "-",
     core: "-",
     additives: "-",
@@ -122,7 +161,7 @@ export const hepaPanelAirFilterWithoutClapboard: Product = {
     structure: "-",
     binder: "-",
     finish: "-",
-    frame: "-",
+    frame: "Different frame materials available",
     reinforcement: "-",
     housing: "-",
     filterElement: "-",

@@ -168,7 +168,7 @@ export default function ContactPage() {
       <div className="grid lg:grid-cols-3 gap-6 lg:gap-8">
         {/* Contact Form */}
         <div className="lg:col-span-2">
-          <Card className="hover:shadow-xs transition-shadow duration-200">
+          <Card className="">
             <CardHeader className="space-y-4">
               <CardTitle className="flex items-center text-2xl">
                 <MessageCircle className="mr-3 h-6 w-6 text-primary" />
@@ -323,7 +323,7 @@ export default function ContactPage() {
         {/* Contact Information */}
         <div className="space-y-6">
           {/* Contact Details */}
-          <Card className="hover:shadow-xs transition-shadow duration-200">
+          <Card className="">
             <CardHeader className="space-y-4">
               <CardTitle className="text-2xl">Get in Touch</CardTitle>
               <CardDescription className="text-base">
@@ -337,7 +337,7 @@ export default function ContactPage() {
                   <div>
                     <div className="font-medium">Phone</div>
                     <div className="text-sm text-muted-foreground">
-                      <a href="tel:+1234567890" className="hover:text-primary">
+                      <a href="tel:+1234567890" className="">
                         +1 (234) 567-8900
                       </a>
                     </div>
@@ -351,7 +351,7 @@ export default function ContactPage() {
                   <Mail className="h-5 w-5 text-primary mt-1" />
                   <div>
                     <div className="text-sm text-muted-foreground">
-                      <a href={`mailto:${contactInfo.email}`} className="hover:text-primary">
+                      <a href={`mailto:${contactInfo.email}`} className="">
                         {contactInfo.email}
                       </a>
                     </div>
@@ -366,7 +366,7 @@ export default function ContactPage() {
                   <div>
                     <div className="font-medium">Technical Support</div>
                     <div className="text-sm text-muted-foreground">
-                      <a href={`mailto:${contactInfo.email}`} className="hover:text-primary">
+                      <a href={`mailto:${contactInfo.email}`} className="">
                         {contactInfo.email}
                       </a>
                     </div>
@@ -404,7 +404,7 @@ export default function ContactPage() {
           </Card>
 
           {/* Why Choose Us */}
-          <Card className="hover:shadow-xs transition-shadow duration-200">
+          <Card className="">
             <CardHeader className="space-y-4">
               <CardTitle className="flex items-center text-2xl">
                 <Award className="mr-3 h-6 w-6 text-primary" />
@@ -442,7 +442,7 @@ export default function ContactPage() {
           </Card>
 
           {/* Emergency Contact */}
-          <Card className="border-destructive/20 bg-destructive/5 hover:shadow-xs transition-shadow duration-200">
+          <Card className="border-destructive/20 bg-destructive/5">
             <CardHeader className="space-y-4">
               <CardTitle className="text-destructive text-2xl">Emergency Support</CardTitle>
               <CardDescription className="text-destructive/80 text-base">
@@ -478,7 +478,7 @@ export default function ContactPage() {
         </div>
 
         <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
-          <Card className="hover:shadow-xs transition-shadow duration-200">
+          <Card className="">
             <CardHeader className="space-y-4">
               <CardTitle className="flex items-center text-xl">
                 <MapPin className="mr-3 h-6 w-6 text-primary" />
@@ -506,7 +506,7 @@ export default function ContactPage() {
             </CardContent>
           </Card>
 
-          <Card className="hover:shadow-xs transition-shadow duration-200">
+          <Card className="">
             <CardHeader className="space-y-4">
               <CardTitle className="flex items-center text-xl">
                 <Users className="mr-3 h-6 w-6 text-primary" />
@@ -542,7 +542,7 @@ export default function ContactPage() {
             </CardContent>
           </Card>
 
-          <Card className="hover:shadow-xs transition-shadow duration-200">
+          <Card className="">
             <CardHeader className="space-y-4">
               <CardTitle className="flex items-center text-xl">
                 <Award className="mr-3 h-6 w-6 text-primary" />

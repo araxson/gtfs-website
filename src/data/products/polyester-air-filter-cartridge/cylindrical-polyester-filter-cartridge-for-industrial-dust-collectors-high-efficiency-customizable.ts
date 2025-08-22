@@ -4,9 +4,48 @@ export const cylindricalPolyesterFilterCartridgeForIndustrialDustCollectorsHighE
   id: "cylindrical-polyester-filter-cartridge-for-industrial-dust-collectors-high-efficiency-customizable",
   name: "Cylindrical Polyester Filter Cartridge for Industrial Dust Collectors | High Efficiency & Customizable",
   productType: "Cylindrical Polyester Filter Cartridge for Industrial Dust Collectors | High Efficiency & Customizable",
-  model: "-",
+  model: "Cylindrical Polyester Cartridge",
   brand: "FORST FILTER",
-  description: "-",
+  description: "High-efficiency cylindrical polyester filter cartridge with customizable specifications. Features superior dust capture and durable construction for industrial applications.",
+  detailedDescription: `Cylindrical Polyester Filter Cartridge for Industrial Dust Collectors | High Efficiency & Customizable
+
+Product Description
+Our Cylindrical Polyester Filter Cartridge is engineered for industrial dust collector systems. Made with premium-grade spunbond polyester, it delivers exceptional filtration efficiency, long service life, and easy maintenance. The cartridge design ensures optimal airflow and dust holding capacity, ideal for various applications such as woodworking, cement, metal processing, and powder coating.
+
+Key Features
+• Material: Durable spunbond polyester with optional surface treatments (antistatic, PTFE membrane, fire retardant, etc.)
+• Shape: Cylindrical for high dust load and efficient filtration
+• Filtration Efficiency: ≥99.9% for particles ≥0.3μm
+• End Cap: Galvanized steel or plastic; corrosion-resistant
+• Gasket: Seamless polyurethane or rubber for airtight sealing
+• Customization: OEM sizes, media options, and end caps available
+
+Advantages
+• Robust construction for extended filter life
+• Optimized pleat design for high dust holding capacity
+• Wide compatibility with various industrial dust collectors
+• Resistant to moisture, chemicals, and temperature fluctuations
+
+Benefits
+• Minimizes maintenance downtime and replacement cost
+• Improves air quality and worker safety
+• Reduces energy consumption with lower pressure drop
+• Supports environmental compliance and emission control
+
+Applications
+Widely used in industries such as:
+• Woodworking
+• Food Processing
+• Metalworking
+• Cement and Aggregates
+• Chemical and Pharmaceutical
+• Powder Coating Booths
+
+Why Choose Us?
+As a professional manufacturer of industrial dust filter cartridges, we offer consistent quality, competitive prices, fast delivery, and excellent customer support. All filters are 100% factory tested.
+
+Need Custom Solutions?
+We support custom design and OEM branding. Contact us today for a quote or technical consultation.`,
   images: ["/products_images/polyester-air-filter-cartridge/cylindrical-polyester-filter-cartridge-for-industrial-dust-collectors-high-efficiency-customizable/cylindrical-polyester-filter-cartridge-for-industrial-dust-collectors-high-efficiency-customizable-001.png", "/products_images/polyester-air-filter-cartridge/cylindrical-polyester-filter-cartridge-for-industrial-dust-collectors-high-efficiency-customizable/cylindrical-polyester-filter-cartridge-for-industrial-dust-collectors-high-efficiency-customizable-002.png", "/products_images/polyester-air-filter-cartridge/cylindrical-polyester-filter-cartridge-for-industrial-dust-collectors-high-efficiency-customizable/cylindrical-polyester-filter-cartridge-for-industrial-dust-collectors-high-efficiency-customizable-003.png", "/products_images/polyester-air-filter-cartridge/cylindrical-polyester-filter-cartridge-for-industrial-dust-collectors-high-efficiency-customizable/cylindrical-polyester-filter-cartridge-for-industrial-dust-collectors-high-efficiency-customizable-004.png", "/products_images/polyester-air-filter-cartridge/cylindrical-polyester-filter-cartridge-for-industrial-dust-collectors-high-efficiency-customizable/cylindrical-polyester-filter-cartridge-for-industrial-dust-collectors-high-efficiency-customizable-005.png"],
   features: [
     "Anti-static properties for explosive dust environments",
@@ -17,15 +56,18 @@ export const cylindricalPolyesterFilterCartridgeForIndustrialDustCollectorsHighE
   advantages: ["-"],
   benefits: ["-"],
   applications: [
-  "Industrial dust collection",
-  "Woodworking dust collection",
-  "Metal processing industry"
-],
+    "Woodworking",
+    "Food processing",
+    "Metalworking",
+    "Cement and aggregates",
+    "Chemical and pharmaceutical",
+    "Powder coating booths"
+  ],
   dimensions: {
-    customizable: false,
-    outerDiameter: "-",
-    innerDiameter: "-",
-    length: "-",
+    customizable: true,
+    outerDiameter: "Customizable",
+    innerDiameter: "Customizable",
+    length: "Customizable",
     height: "-",
     width: "-",
     rollWidth: "-",
@@ -42,7 +84,7 @@ export const cylindricalPolyesterFilterCartridgeForIndustrialDustCollectorsHighE
     compact: "-",
     cartridgeCapacity: "-",
     flangeSize: "-",
-    shape: "-",
+    shape: "Cylindrical",
     cartridgeAngle: "-",
     specialSizes: "-",
     standardSizes: ["-"],
@@ -58,9 +100,9 @@ export const cylindricalPolyesterFilterCartridgeForIndustrialDustCollectorsHighE
     expandable: "-"
   },
   technicalSpecs: {
-    filtrationEfficiency: "≥99% @ 1.0μm",
+    filtrationEfficiency: "≥99.9% for particles ≥0.3μm",
     operatingTemperature: "Up to 135°C",
-    temperatureRange: "-",
+    temperatureRange: "Up to 135°C",
     surfaceResistance: "-",
     filtrationSurface: "-",
     airflowCapacity: "-",

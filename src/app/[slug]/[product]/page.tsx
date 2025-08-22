@@ -47,12 +47,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
         title={product.name}
         description={product.description}
         breadcrumbs={[
-          { title: "Products", href: "/products" },
           { title: category?.name || "Category", href: `/${resolvedParams.slug}` },
           { title: product.name }
         ]}
       >
-        <div className="flex items-center space-x-2">
+        <div className="flex flex-wrap items-center gap-2">
           <Button variant="outline" size="sm">
             <Share2 className="mr-2 h-4 w-4" />
             Share
@@ -68,9 +67,9 @@ export default async function ProductPage({ params }: ProductPageProps) {
         </div>
       </PageHeader>
 
-      <div className="grid lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
         {/* Main Content */}
-        <div className="lg:col-span-2 space-y-8">
+        <div className="md:col-span-2 lg:col-span-2 space-y-6 lg:space-y-8">
           {/* Product Image Gallery */}
           <ProductImageGallery 
             images={product.images}
@@ -79,7 +78,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           
           {/* Product Overview */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-4">
+            <div className="flex flex-wrap items-center gap-2">
               <Badge variant="outline" className="text-sm">
                 {product.brand}
               </Badge>
@@ -150,14 +149,33 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
           {/* Detailed Information Tabs */}
           <Tabs defaultValue="overview" className="space-y-6">
-            <TabsList className="grid w-full grid-cols-4">
-              <TabsTrigger value="overview">Overview</TabsTrigger>
-              <TabsTrigger value="specifications">Specifications</TabsTrigger>
-              <TabsTrigger value="applications">Applications</TabsTrigger>
-              <TabsTrigger value="certifications">Certifications</TabsTrigger>
+            <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4 h-auto p-1 gap-1">
+              <TabsTrigger value="overview" className="h-9">Overview</TabsTrigger>
+              <TabsTrigger value="specifications" className="h-9">Specifications</TabsTrigger>
+              <TabsTrigger value="applications" className="h-9">Applications</TabsTrigger>
+              <TabsTrigger value="certifications" className="h-9">Certifications</TabsTrigger>
             </TabsList>
 
             <TabsContent value="overview" className="space-y-6">
+              {/* Detailed Description */}
+              {product.detailedDescription && (
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center">
+                      <FileText className="mr-2 h-5 w-5 text-primary" />
+                      Product Overview
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="prose prose-sm max-w-none">
+                      <p className="text-sm leading-relaxed whitespace-pre-line">
+                        {product.detailedDescription}
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+              )}
+
               {/* Features */}
               {product.features && product.features.length > 0 && product.features.some(f => f !== "-") && (
                 <Card>
@@ -168,7 +186,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="grid md:grid-cols-2 gap-3">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       {product.features.filter(f => f !== "-").map((feature, index) => (
                         <div key={index} className="flex items-start space-x-2">
                           <CheckCircle className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
@@ -248,7 +266,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
             </TabsContent>
 
             <TabsContent value="specifications" className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 {/* Technical Specifications */}
                 {product.technicalSpecs && (
                   <Card>
@@ -613,11 +631,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                     {product.applications.filter(app => app !== "-").map((application) => (
                       <div
                         key={application}
-                        className="p-3 rounded-lg border bg-muted/50 hover:bg-muted/70"
+                        className="p-3 rounded-lg border bg-muted/50"
                       >
                         <div className="text-sm font-medium">{application}</div>
                       </div>
@@ -636,7 +654,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <div className="grid md:grid-cols-2 gap-3">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       {product.customizationOptions.filter(c => c !== "-").map((option, index) => (
                         <div key={index} className="flex items-start space-x-2">
                           <Settings className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
@@ -650,7 +668,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
             </TabsContent>
 
             <TabsContent value="certifications" className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 {/* Certifications */}
                 {product.certifications && product.certifications.length > 0 && product.certifications.some(c => c !== "-") && (
                   <Card>
@@ -705,7 +723,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="grid md:grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <Button variant="outline" className="justify-start">
                       <Download className="mr-2 h-4 w-4" />
                       Product Datasheet
@@ -730,7 +748,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         </div>
 
         {/* Sidebar */}
-        <div className="space-y-6">
+        <div className="md:col-span-2 lg:col-span-1 space-y-6">
           {/* Contact Card */}
           <Card>
             <CardHeader>
@@ -819,7 +837,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                       <div className="flex-1 min-w-0">
                         <Link
                           href={`/${resolvedParams?.slug}/${relatedProduct.id}`}
-                          className="text-sm font-medium hover:text-primary line-clamp-2"
+                          className="text-sm font-medium line-clamp-2"
                         >
                           {relatedProduct.name}
                         </Link>

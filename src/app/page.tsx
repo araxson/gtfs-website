@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ImageWithFallback } from "@/components/ui/image-with-fallback";
+import Image from "next/image";
 
 import { PageContainer } from "@/components/page-container";
 import { ArrowRight, CheckCircle, Shield, Globe, Users, Award, Settings } from "lucide-react";
@@ -19,32 +19,32 @@ export default async function Home() {
       <HeroCarousel />
 
       {/* Company Advantages */}
-      <section className="section-secondary py-12 lg:py-16">
+      <section className="section-secondary py-8 sm:py-12 lg:py-16">
         <PageContainer>
-          <div className="text-center space-y-4 mb-8 sm:mb-12">
-            <div className="space-y-3">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Why Choose Global Tech Fluid Services</h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <div className="text-center space-y-3 sm:space-y-4 mb-6 sm:mb-8 lg:mb-12">
+            <div className="space-y-2 sm:space-y-3">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight">Why Choose Global Tech Fluid Services</h2>
+              <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4 sm:px-0">
                 Our commitment to excellence drives everything we do, from manufacturing filtration and pump systems to customer service.
               </p>
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {gtfsData.advantages?.map((advantage, index) => {
               const icons = [Shield, Settings, Globe];
               const Icon = icons[index % icons.length];
               
               return (
                 <Card key={advantage.title} className="text-center h-full">
-                  <CardHeader className="space-y-4">
-                    <div className="mx-auto h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center">
-                      <Icon className="h-8 w-8 text-primary" />
+                  <CardHeader className="space-y-3 sm:space-y-4 pb-4">
+                    <div className="mx-auto h-12 w-12 sm:h-16 sm:w-16 rounded-full bg-primary/10 flex items-center justify-center">
+                      <Icon className="h-6 w-6 sm:h-8 sm:w-8 text-primary" />
                     </div>
-                    <CardTitle className="text-2xl">{advantage.title}</CardTitle>
+                    <CardTitle className="text-lg sm:text-xl lg:text-2xl">{advantage.title}</CardTitle>
                   </CardHeader>
-                  <CardContent>
-                    <CardDescription className="text-base leading-relaxed">
+                  <CardContent className="pt-0">
+                    <CardDescription className="text-sm sm:text-base leading-relaxed">
                       {advantage.description}
                     </CardDescription>
                   </CardContent>
@@ -56,24 +56,24 @@ export default async function Home() {
       </section>
 
       {/* Product Categories */}
-      <section className="section-primary py-12 lg:py-16">
+      <section className="section-primary py-8 sm:py-12 lg:py-16">
         <PageContainer>
-          <div className="text-center space-y-4 mb-8 sm:mb-12">
-            <div className="space-y-3">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Product Categories</h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <div className="text-center space-y-3 sm:space-y-4 mb-6 sm:mb-8 lg:mb-12">
+            <div className="space-y-2 sm:space-y-3">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight">Our Product Categories</h2>
+              <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4 sm:px-0">
                 Comprehensive range of industrial filtration and pumping solutions for diverse applications
               </p>
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {gtfsData.categories.slice(0, 6).map((category) => (
-              <Card key={category.id} className="h-full flex flex-col">
-                <CardHeader className="space-y-4">
+              <Card key={category.id} className="h-full flex flex-col group">
+                <CardHeader className="space-y-3 sm:space-y-4 pb-4">
                   {/* Category Image */}
                   <div className="aspect-square w-full overflow-hidden rounded-lg bg-muted">
-                    <ImageWithFallback
+                    <Image
                       src={category.categoryImage || "/placeholder.svg"}
                       alt={category.name}
                       width={400}
@@ -81,19 +81,21 @@ export default async function Home() {
                       className="h-full w-full object-cover"
                     />
                   </div>
-                  <CardTitle className="text-xl">{category.name}</CardTitle>
+                  <CardTitle className="text-lg sm:text-xl">{category.name}</CardTitle>
                 </CardHeader>
-                <CardContent className="flex-1 flex flex-col space-y-6">
-                  <CardDescription className="text-base leading-relaxed flex-1">
+                <CardContent className="flex-1 flex flex-col space-y-4 sm:space-y-6 pt-0">
+                  <CardDescription className="text-sm sm:text-base leading-relaxed flex-1">
                     {category.overview}
                   </CardDescription>
-                  <div className="flex items-center justify-between pt-4 border-t">
-                    <Badge variant="secondary" className="text-sm">
+                  <div className="flex items-center justify-between pt-3 sm:pt-4 border-t">
+                    <Badge variant="secondary" className="text-xs sm:text-sm">
                       {category.products.length} Products
                     </Badge>
-                    <Button variant="outline" size="sm" asChild>
-                      <Link href={`/${category.slug}`}>
-                        View Products <ArrowRight className="ml-2 h-4 w-4" />
+                    <Button variant="outline" size="sm" asChild className="text-xs sm:text-sm">
+                      <Link href={`/${category.slug}`} className="flex items-center">
+                        <span className="hidden xs:inline">View Products</span>
+                        <span className="xs:hidden">View</span>
+                        <ArrowRight className="ml-1 sm:ml-2 h-3 w-3 sm:h-4 sm:w-4" />
                       </Link>
                     </Button>
                   </div>
@@ -102,10 +104,11 @@ export default async function Home() {
             ))}
           </div>
           
-          <div className="text-center mt-12">
-            <Button size="lg" asChild>
-              <Link href="/products">
-                View All Categories <ArrowRight className="ml-2 h-5 w-5" />
+          <div className="text-center mt-8 sm:mt-10 lg:mt-12">
+            <Button size="lg" asChild className="w-full sm:w-auto">
+              <Link href="/polyester-air-filter-cartridge" className="flex items-center justify-center">
+                <span>View All Categories</span>
+                <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
               </Link>
             </Button>
           </div>
@@ -113,24 +116,24 @@ export default async function Home() {
       </section>
 
       {/* Featured Products */}
-      <section className="section-accent py-12 lg:py-16">
+      <section className="section-accent py-8 sm:py-12 lg:py-16">
         <PageContainer>
-          <div className="text-center space-y-4 mb-8 sm:mb-12">
-            <div className="space-y-3">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Featured Products</h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <div className="text-center space-y-3 sm:space-y-4 mb-6 sm:mb-8 lg:mb-12">
+            <div className="space-y-2 sm:space-y-3">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight">Featured Products</h2>
+              <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4 sm:px-0">
                 Discover our most popular and advanced filtration and pumping solutions
               </p>
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {featuredProducts.map((product) => (
-              <Card key={product.id} className="h-full flex flex-col">
-                <CardHeader className="space-y-4">
+              <Card key={product.id} className="h-full flex flex-col group">
+                <CardHeader className="space-y-3 sm:space-y-4 pb-4">
                   {/* Product Image */}
                   <div className="aspect-square w-full overflow-hidden rounded-lg bg-muted">
-                    <ImageWithFallback
+                    <Image
                       src={product.images?.[0] || "/products_images/product-catagories-images/cylindrical-filter-cartridge.webp"}
                       alt={product.name}
                       width={400}
@@ -138,23 +141,23 @@ export default async function Home() {
                       className="h-full w-full object-cover"
                     />
                   </div>
-                  <div className="flex items-center justify-between">
-                    <Badge variant="outline">{product.brand}</Badge>
+                  <div className="flex items-center justify-between gap-2">
+                    <Badge variant="outline" className="text-xs sm:text-sm">{product.brand}</Badge>
                     {product.treatments?.antiStatic && (
-                      <Badge variant="secondary">Anti-Static</Badge>
+                      <Badge variant="secondary" className="text-xs sm:text-sm">Anti-Static</Badge>
                     )}
                   </div>
-                  <div className="space-y-3">
-                    <CardTitle className="text-xl line-clamp-2">{product.name}</CardTitle>
-                    <CardDescription className="text-base leading-relaxed line-clamp-3">
+                  <div className="space-y-2 sm:space-y-3">
+                    <CardTitle className="text-base sm:text-lg lg:text-xl line-clamp-2">{product.name}</CardTitle>
+                    <CardDescription className="text-sm sm:text-base leading-relaxed line-clamp-3">
                       {product.description}
                     </CardDescription>
                   </div>
                 </CardHeader>
-                <CardContent className="flex-1 flex flex-col space-y-6">
-                  <div className="space-y-3">
-                    <div className="text-sm font-semibold text-foreground">Key Applications</div>
-                    <div className="flex flex-wrap gap-2">
+                <CardContent className="flex-1 flex flex-col space-y-4 sm:space-y-6 pt-0">
+                  <div className="space-y-2 sm:space-y-3">
+                    <div className="text-xs sm:text-sm font-semibold text-foreground">Key Applications</div>
+                    <div className="flex flex-wrap gap-1 sm:gap-2">
                       {product.applications.slice(0, 3).map((app) => (
                         <Badge key={app} variant="secondary" className="text-xs">
                           {app}
@@ -168,10 +171,11 @@ export default async function Home() {
                     </div>
                   </div>
                   
-                  <div className="mt-auto pt-4 border-t">
-                    <Button asChild className="w-full">
-                      <Link href={`/${product.category}/${product.id}`}>
-                        View Details <ArrowRight className="ml-2 h-4 w-4" />
+                  <div className="mt-auto pt-3 sm:pt-4 border-t">
+                    <Button asChild className="w-full text-sm sm:text-base">
+                      <Link href={`/${product.category}/${product.id}`} className="flex items-center justify-center">
+                        <span>View Details</span>
+                        <ArrowRight className="ml-2 h-3 w-3 sm:h-4 sm:w-4" />
                       </Link>
                     </Button>
                   </div>
@@ -182,50 +186,50 @@ export default async function Home() {
         </PageContainer>
       </section>
 
-      <section className="section-secondary py-12 lg:py-16">
+      <section className="section-secondary py-8 sm:py-12 lg:py-16">
         <PageContainer>
-          <div className="text-center space-y-4 mb-8 sm:mb-12">
-            <div className="space-y-3">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Quality Standards & Certifications</h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <div className="text-center space-y-3 sm:space-y-4 mb-6 sm:mb-8 lg:mb-12">
+            <div className="space-y-2 sm:space-y-3">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight">Quality Standards & Certifications</h2>
+              <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4 sm:px-0">
                 Meeting the highest industry standards with certified quality processes
               </p>
             </div>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
-            <Card>
-              <CardHeader className="space-y-4">
-                <CardTitle className="flex items-center text-2xl">
-                  <Award className="mr-3 h-6 w-6 text-primary" />
+          <div className="grid lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+            <Card className="">
+              <CardHeader className="space-y-3 sm:space-y-4">
+                <CardTitle className="flex items-center text-lg sm:text-xl lg:text-2xl">
+                  <Award className="mr-2 sm:mr-3 h-5 w-5 sm:h-6 sm:w-6 text-primary flex-shrink-0" />
                   Certifications
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
                   {gtfsData.certifications?.map((cert) => (
-                    <div key={cert} className="flex items-center space-x-3 p-3 rounded-lg bg-muted/50">
-                      <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
-                      <span className="text-sm font-medium">{cert}</span>
+                    <div key={cert} className="flex items-center space-x-2 sm:space-x-3 p-2 sm:p-3 rounded-lg bg-muted/50">
+                      <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-primary flex-shrink-0" />
+                      <span className="text-xs sm:text-sm font-medium">{cert}</span>
                     </div>
                   ))}
                 </div>
               </CardContent>
             </Card>
             
-            <Card>
-              <CardHeader className="space-y-4">
-                <CardTitle className="flex items-center text-2xl">
-                  <Users className="mr-3 h-6 w-6 text-primary" />
+            <Card className="">
+              <CardHeader className="space-y-3 sm:space-y-4">
+                <CardTitle className="flex items-center text-lg sm:text-xl lg:text-2xl">
+                  <Users className="mr-2 sm:mr-3 h-5 w-5 sm:h-6 sm:w-6 text-primary flex-shrink-0" />
                   Quality Standards
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="space-y-4">
+                <div className="space-y-3 sm:space-y-4">
                   {gtfsData.qualityStandards?.slice(0, 4).map((standard) => (
-                    <div key={standard} className="flex items-start space-x-3 p-3 rounded-lg bg-muted/50">
-                      <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm leading-relaxed">{standard}</span>
+                    <div key={standard} className="flex items-start space-x-2 sm:space-x-3 p-2 sm:p-3 rounded-lg bg-muted/50">
+                      <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-primary mt-0.5 flex-shrink-0" />
+                      <span className="text-xs sm:text-sm leading-relaxed">{standard}</span>
                     </div>
                   ))}
                 </div>
@@ -236,25 +240,25 @@ export default async function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 lg:py-16 mb-8 lg:mb-12">
+      <section className="py-8 sm:py-12 lg:py-16 mb-6 sm:mb-8 lg:mb-12">
         <PageContainer>
           <Card className="max-w-7xl mx-auto bg-primary text-primary-foreground border-0">
-            <CardContent className="py-12 lg:py-16 px-6 lg:px-8">
-              <div className="text-center space-y-4">
-                <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">
+            <CardContent className="py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
+              <div className="text-center space-y-4 sm:space-y-6">
+                <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold tracking-tight">
                   Ready to Find Your Filtration Solution?
                 </h2>
-                <p className="text-base sm:text-lg opacity-90 max-w-2xl mx-auto leading-relaxed">
+                <p className="text-sm sm:text-base lg:text-lg opacity-90 max-w-2xl mx-auto leading-relaxed">
                   Contact our experts today to discuss your specific filtration needs and get a customized quote.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-                  <Button size="lg" variant="outline" asChild className="text-lg font-medium px-8 bg-background text-foreground border-background hover:bg-background/90">
-                    <Link href="/contact">
+                <div className="flex flex-col xs:flex-row gap-3 sm:gap-4 justify-center max-w-lg mx-auto">
+                  <Button asChild size="lg" className="bg-primary text-foreground border-background w-full xs:w-auto">
+                    <Link href="/contact" className="flex items-center justify-center">
                       Get Custom Quote
                     </Link>
                   </Button>
-                  <Button size="lg" variant="outline" asChild className="text-lg font-medium px-8 border bg-transparent text-background border-background hover:bg-background/10">
-                    <Link href="/products">
+                  <Button variant="outline" size="lg" className="bg-transparent text-background border-background w-full xs:w-auto">
+                    <Link href="/dust-collector-system" className="flex items-center justify-center">
                       Browse Catalog
                     </Link>
                   </Button>

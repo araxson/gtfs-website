@@ -193,7 +193,8 @@ export interface Product {
   productType: string;
   model: string;
   brand: string;
-  description: string;
+  description: string; // Short description for headers and cards
+  detailedDescription?: string; // Long detailed description from markdown
   images: string[];
   features: string[];
   specialFeatures: string[];

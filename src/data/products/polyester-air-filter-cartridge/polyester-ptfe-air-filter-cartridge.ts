@@ -6,7 +6,8 @@ export const polyesterPtfeAirFilterCartridge: Product = {
   productType: "Polyester+PTFE Air Filter Cartridge",
   model: "SFF/F3266",
   brand: "FORST FILTER",
-  description: "-",
+  description: "Imported spun bonded polyester with PTFE membrane offering 99.99+% filter efficiency. Wide pleat spacing and smooth, hydrophobic PTFE provides excellent particle release. Operating temperature 93-135°C.",
+  detailedDescription: "PTFE Filter Cartridge is a membrane-laminated polyester media that provides very high initial efficiency on sub-micron particles. With the addition of the film, almost all particles are immediately stopped by the filter (99.9% efficiency). PTFE membrane media provides the best dust cake release properties. PTFE is nearly chemically inert, a desirable property when dealing with reactive products. Features: (1) Suitable for the filtration of very fine dust type in welding fumes, mechanical processing, pharmaceutical and construction industries and sticky dust collection. (2) Imported spun bonded polyester with PTFE membrane, microporous offers 99.99+% filter efficiency. (3) Wide pleat spacing and smooth, hydrophobic PTFE provides excellent particle release. (4) Excellent resistance to chemical erosion. (5) Electrochemical plate/stainless steel top and bottom, no rust perforated zinc galvanized metal inner core allows good airflow. (6) Applicable temperature: 93-135°C. Available specifications include various models like SFF/F3266 (Φ324mm O.D, Φ213mm I.D, 660mm Length, 9.4m² filtration surface), SFF/F3566, SFF/F3275, SFF/F3288, and SFF/F3290 with different dimensions and filtration surfaces.",
   images: ["/products_images/polyester-air-filter-cartridge/polyester-ptfe-air-filter-cartridge/polyester-ptfe-air-filter-cartridge-001.png", "/products_images/polyester-air-filter-cartridge/polyester-ptfe-air-filter-cartridge/polyester-ptfe-air-filter-cartridge-002.png", "/products_images/polyester-air-filter-cartridge/polyester-ptfe-air-filter-cartridge/polyester-ptfe-air-filter-cartridge-003.png", "/products_images/polyester-air-filter-cartridge/polyester-ptfe-air-filter-cartridge/polyester-ptfe-air-filter-cartridge-004.png", "/products_images/polyester-air-filter-cartridge/polyester-ptfe-air-filter-cartridge/polyester-ptfe-air-filter-cartridge-005.png"],
   features: [
     "PTFE membrane for enhanced performance"
@@ -15,13 +16,17 @@ export const polyesterPtfeAirFilterCartridge: Product = {
   advantages: ["-"],
   benefits: ["-"],
   applications: [
-  "Welding fume extraction"
-],
+    "Welding fumes filtration",
+    "Mechanical processing dust",
+    "Pharmaceutical industry",
+    "Construction industry dust",
+    "Sticky dust collection"
+  ],
   dimensions: {
-    customizable: false,
-    outerDiameter: "-",
-    innerDiameter: "-",
-    length: "-",
+    customizable: true,
+    outerDiameter: "324-352mm",
+    innerDiameter: "213-241mm",
+    length: "660-915mm",
     height: "-",
     width: "-",
     rollWidth: "-",
@@ -54,22 +59,22 @@ export const polyesterPtfeAirFilterCartridge: Product = {
     expandable: "-"
   },
   technicalSpecs: {
-    filtrationEfficiency: "≥99% @ 1.0μm",
-    operatingTemperature: "Up to 135°C",
+    filtrationEfficiency: "≥99.99% @ sub-micron particles",
+    operatingTemperature: "93-135°C",
     temperatureRange: "-",
     surfaceResistance: "-",
-    filtrationSurface: "-",
+    filtrationSurface: "9.4m² to various sizes",
     airflowCapacity: "-",
-    materialType: "-",
+    materialType: "Imported spun bonded polyester with PTFE membrane",
     airPermeability: "-",
     tensileStrength: "-",
     wetStrength: "-",
     antiStaticCompliance: "-",
     basisWeight: "-",
-    chemicalResistance: "-",
+    chemicalResistance: "Excellent resistance to chemical erosion",
     dimensionalStability: "-",
     serviceLife: "-",
-    specialProperties: "-",
+    specialProperties: "PTFE membrane provides best dust cake release, chemically inert",
     initialPressureDrop: "-",
     dustHoldingCapacity: "-",
     thermalStability: "-",
@@ -77,7 +82,7 @@ export const polyesterPtfeAirFilterCartridge: Product = {
     saltResistance: "-",
     mountingType: "-",
     mechanicalStrength: "-",
-    minimumParticleSize: "-",
+    minimumParticleSize: "Sub-micron particles",
     suctionPower: "-",
     motorPower: "-",
     mobility: "-",
@@ -105,11 +110,11 @@ export const polyesterPtfeAirFilterCartridge: Product = {
     flexibility: "-"
   },
   materials: {
-    filterMedia: "Premium filter materials",
-    construction: "-",
-    endCap: "-",
+    filterMedia: "Imported spun bonded polyester with PTFE membrane",
+    construction: "Wide pleat spacing, smooth hydrophobic PTFE",
+    endCap: "Electrochemical plate/stainless steel",
     gasket: "-",
-    core: "-",
+    core: "Perforated zinc galvanized metal inner core",
     additives: "-",
     treatment: "-",
     baseMedia: "-",
@@ -147,26 +152,56 @@ export const polyesterPtfeAirFilterCartridge: Product = {
   treatments: {
     antiStatic: false,
     oilWaterRepellent: false,
-    ptfeMembrane: false,
+    ptfeMembrane: true,
     fireRetardant: false,
     moistureResistant: false,
     conductive: false,
     washable: false,
     biodegradable: false,
-    chemicalResistant: false,
+    chemicalResistant: true,
     temperatureResistant: false,
     highTemperature: false,
     ultraHighTemperature: false,
     thermalShock: false,
     corrosionResistant: false
   },
-  availableSizes: [{
-    model: "-",
-    outerDiameter: "-",
-    innerDiameter: "-",
-    length: "-",
-    filtrationSurface: "-"
-  }],
+  availableSizes: [
+    {
+      model: "SFF/F3266",
+      outerDiameter: "324mm",
+      innerDiameter: "213mm",
+      length: "660mm",
+      filtrationSurface: "9.4m²"
+    },
+    {
+      model: "SFF/F3566",
+      outerDiameter: "352mm",
+      innerDiameter: "241mm",
+      length: "660mm",
+      filtrationSurface: "Various"
+    },
+    {
+      model: "SFF/F3275",
+      outerDiameter: "324mm",
+      innerDiameter: "213mm",
+      length: "750mm",
+      filtrationSurface: "Various"
+    },
+    {
+      model: "SFF/F3288",
+      outerDiameter: "324mm",
+      innerDiameter: "213mm",
+      length: "880mm",
+      filtrationSurface: "Various"
+    },
+    {
+      model: "SFF/F3290",
+      outerDiameter: "324mm",
+      innerDiameter: "213mm",
+      length: "915mm",
+      filtrationSurface: "Various"
+    }
+  ],
   customizationOptions: ["-"],
   qualityStandards: ["-"],
   dataSheet: "-",

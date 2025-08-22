@@ -4,9 +4,52 @@ export const highMediumEfficiencyPanelFilterWithClapboard: Product = {
   id: "high-medium-efficiency-panel-filter-with-clapboard",
   name: "High Medium Efficiency Panel Filter with Clapboard",
   productType: "High Medium Efficiency Panel Filter with Clapboard",
-  model: "SFF/H592100",
+  model: "SFF/H592292",
   brand: "FORST FILTER",
-  description: "-",
+  description: "High-medium efficiency panel filter with clapboard design for gas turbines and HVAC systems. Features high adsorption capacity, stable performance, and customizable flanges.",
+  detailedDescription: `High/Medium Efficiency Panel Filter with Clapboard
+
+Gas Turbine Use:
+• Designed with high adsorption capacity
+• Non-influence by indirect air flow and pressure fluctuation
+• Dimensions: 592 x 592 × 292mm
+• Rated airflow: 3400m³/h, 4250m³/h
+• One sided or two sided flanges
+
+Model: SFF/H592292
+Brand: FORST FILTER
+Code: 8421999090
+
+Features
+(1) Gas turbine use:
+• Designed with high adsorption capacity
+• Non-influence by indirect air flow and pressure fluctuation
+• Dimensions: 592 x 592 x 292mm
+• Rated airflow: 3400m³/h, 4250m³/h
+• One sided or two sided flanges
+
+(2) HVAC use:
+• Used as a pre filter or main filter for large airflow
+• Long life service
+• Can be used as replacement filter element in standard frames
+
+Technology Parameters
+
+Air Filter with Separator (Gas Turbine Use):
+Filter Grade: F6 (According to EN779 standard)
+Dust-spot efficiency: 65, 95
+Initial resistance (rated air flow): 130/170, 180/220 Pa
+Durable temperature: 120°C (MAX)
+Relative moisture (max): 100%
+
+Ventilation and Air Condition Use:
+Filter Grade: F6
+Dust-spot efficiency: 65, 85, 95
+Initial resistance: 85, 110, 130 Pa
+Durable temperature: 120°C (MAX)
+Relative moisture (max): 100%
+
+EN779: Suitable for air filter used for ventilation and air condition (equivalent to ASHRAE standard 52-76)`,
   images: ["/products_images/panel-air-filters/high-medium-efficiency-panel-filter-with-clapboard/high-medium-efficiency-panel-filter-with-clapboard-001.png"],
   features: [
     "High-quality filter media",

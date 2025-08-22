@@ -2,27 +2,84 @@ import { Product } from '../../../lib/types';
 
 export const highEfficiencyPuEndCapDustCollectorFilterCartridgePolyurethaneSealLongServiceLifeEasyInstallation: Product = {
   id: "high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation",
-  name: "High-Efficiency PU End Cap Dust Collector Filter Cartridge | Polyurethane Seal,   productType: ",
-  productType: "High-Efficiency PU End Cap Dust Collector Filter Cartridge | Polyurethane Seal,   model: ",
+  name: "High-Efficiency PU End Cap Dust Collector Filter Cartridge | Polyurethane Seal, Long Service Life, Easy Installation",
+  productType: "High-Efficiency PU End Cap Dust Collector Filter Cartridge | Polyurethane Seal, Long Service Life, Easy Installation",
   model: "-",
   brand: "FORST FILTER",
-  description: "-",
+  description: "High-efficiency filter cartridge with durable polyurethane end caps. Features excellent sealing, vibration resistance, and easy installation for industrial dust collection systems.",
+  detailedDescription: `High-Efficiency PU End Cap Dust Collector Filter Cartridge | Polyurethane Seal, Long Service Life, Easy Installation
+
+Product Overview
+The PU End Cap Dust Collector Filter Cartridge is designed with durable polyurethane end caps and premium filter media, ensuring excellent sealing, vibration resistance, and long-term filtration performance. This filter is ideal for industrial dust collection systems that require high efficiency, easy installation, and reduced maintenance downtime.
+
+Key Features
+• Polyurethane (PU) end caps with high flexibility and sealing performance
+• Premium filter media for fine dust capture
+• Inner & outer metal support cage for structural strength
+
+Advantages
+• Resistant to wear, aging, and chemical corrosion
+• Vibration-absorbing PU design protects the filter and dust collector
+• Compatible with various installation systems
+
+Benefits
+• Stable filtration efficiency over long service life
+• Extended dust collector lifespan
+• Reduced maintenance time and costs
+
+Applications
+Perfect for dust collection systems in:
+• Metalworking
+• Painting & Coating
+• Food Processing
+• Pharmaceutical Manufacturing
+• Woodworking
+
+Technical Specifications
+Model: FS-PU-001 / FS-PU-002 / Custom
+End Cap Material: Polyurethane (PU)
+Filter Media: Polyester / Cellulose / Blended
+Filtration Efficiency: ≥99.0% @ 1μm
+Outer Diameter: 76mm / 100mm / Customizable
+Length: 150mm – 1200mm optional
+Support Cage: Galvanized steel or stainless steel
+Seal Material: Polyurethane integrated seal
+Max Operating Temperature: ≤80°C (polyester), ≤70°C (cellulose)
+Operating Pressure: ~ -10kPa to +30kPa (reference)
+Service Life: Typically 6–12 months (depends on conditions)
+Certifications: ISO9001, material reports, and third-party test reports
+
+Customization Options
+We provide custom PU end cap filter cartridges tailored to your application needs:
+• Size and length
+• Filter media type
+• End cap color and hardness
+• Seal design
+
+Share your operating environment details (dust type, temperature, humidity) to get the optimal solution.`,
   images: ["/products_images/pu-pleated-bag-filters/high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation/high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation-001.png", "/products_images/pu-pleated-bag-filters/high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation/high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation-002.png", "/products_images/pu-pleated-bag-filters/high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation/high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation-003.png", "/products_images/pu-pleated-bag-filters/high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation/high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation-004.png", "/products_images/pu-pleated-bag-filters/high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation/high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation-005.png", "/products_images/pu-pleated-bag-filters/high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation/high-efficiency-pu-end-cap-dust-collector-filter-cartridge-polyurethane-seal-long-service-life-easy-installation-006.png"],
   features: [
-    "Customizable dimensions and specifications"
+    "Polyurethane (PU) end caps with high flexibility",
+    "Premium filter media for fine dust capture",
+    "Inner & outer metal support cage for strength",
+    "Excellent sealing performance",
+    "Easy installation design"
   ],
   specialFeatures: ["-"],
   advantages: ["-"],
   benefits: ["-"],
   applications: [
-  "Industrial dust collection",
-  "Woodworking dust collection"
-],
+    "Metalworking",
+    "Painting & coating",
+    "Food processing",
+    "Pharmaceutical manufacturing",
+    "Woodworking"
+  ],
   dimensions: {
-    customizable: false,
-    outerDiameter: "-",
+    customizable: true,
+    outerDiameter: "76mm / 100mm / Customizable",
     innerDiameter: "-",
-    length: "-",
+    length: "150mm – 1200mm optional",
     height: "-",
     width: "-",
     rollWidth: "-",
@@ -55,13 +112,13 @@ export const highEfficiencyPuEndCapDustCollectorFilterCartridgePolyurethaneSealL
     expandable: "-"
   },
   technicalSpecs: {
-    filtrationEfficiency: "≥99% @ 1.0μm",
-    operatingTemperature: "Up to 135°C",
+    filtrationEfficiency: "≥99.0% @ 1μm",
+    operatingTemperature: "≤80°C (polyester), ≤70°C (cellulose)",
     temperatureRange: "-",
     surfaceResistance: "-",
     filtrationSurface: "-",
     airflowCapacity: "-",
-    materialType: "-",
+    materialType: "Polyester / Cellulose / Blended",
     airPermeability: "-",
     tensileStrength: "-",
     wetStrength: "-",
@@ -69,7 +126,7 @@ export const highEfficiencyPuEndCapDustCollectorFilterCartridgePolyurethaneSealL
     basisWeight: "-",
     chemicalResistance: "-",
     dimensionalStability: "-",
-    serviceLife: "-",
+    serviceLife: "6–12 months (depends on conditions)",
     specialProperties: "-",
     initialPressureDrop: "-",
     dustHoldingCapacity: "-",
@@ -78,7 +135,7 @@ export const highEfficiencyPuEndCapDustCollectorFilterCartridgePolyurethaneSealL
     saltResistance: "-",
     mountingType: "-",
     mechanicalStrength: "-",
-    minimumParticleSize: "-",
+    minimumParticleSize: "1μm",
     suctionPower: "-",
     motorPower: "-",
     mobility: "-",

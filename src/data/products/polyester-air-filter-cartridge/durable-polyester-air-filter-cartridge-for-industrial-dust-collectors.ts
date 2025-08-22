@@ -4,9 +4,50 @@ export const durablePolyesterAirFilterCartridgeForIndustrialDustCollectors: Prod
   id: "durable-polyester-air-filter-cartridge-for-industrial-dust-collectors",
   name: "Durable Polyester Air Filter Cartridge for Industrial Dust Collectors",
   productType: "Durable Polyester Air Filter Cartridge for Industrial Dust Collectors",
-  model: "-",
+  model: "Durable Polyester Cartridge",
   brand: "FORST FILTER",
-  description: "-",
+  description: "Durable white polyester cylindrical filter cartridge for industrial dust collector systems. Made of premium spun-bonded polyester with exceptional filtration efficiency and pulse jet cleaning compatibility.",
+  detailedDescription: `Durable Polyester Air Filter Cartridge for Industrial Dust Collectors
+
+Product Overview
+Our White Polyester Cylindrical Dust Filter Cartridge is designed for industrial dust collector systems. Made of premium spun-bonded polyester, this cartridge delivers exceptional filtration efficiency, durability, and ease of cleaning. Ideal for environments like powder coating, metalworking, and wood processing.
+
+Key Features & Benefits
+• High-Efficiency Filter Media: Captures ≥99.9% of airborne particles at ≥1.0μm
+• Cylindrical Pleated Design: Increases surface area and reduces pressure drop
+• Durable Core & End Caps: Galvanized steel core and sealed end caps ensure long life
+• Pulse Jet Compatible: Enables automatic cleaning for longer intervals
+• White Appearance: Helps identify dust buildup for timely maintenance
+• Custom Sizes: OEM dimensions, end caps, and branding are available
+
+Technical Specifications
+Media: Spun-bonded White Polyester
+Efficiency: ≥99.9% @ 1.0μm
+Outer Diameter: 325 mm (customizable)
+Length: 660 mm / 700 mm / Custom
+End Caps: Galvanized / Stainless Steel
+Inner Core: Expanded Metal Mesh
+Gasket: Rubber / PU / Silicone
+Cleaning Method: Pulse Jet / Manual
+Operating Temp.: Max. 120°C
+
+Applications
+• Powder Coating & Sandblasting Booths
+• Welding and Grinding Fume Extraction
+• Woodworking and MDF Dust Collection
+• Food and Pharmaceutical Dust Control
+• Cement, Steel, and Mining Industries
+
+Packaging & Delivery
+• PE film wrapping, carton or pallet packaging
+• Custom labeling and QR code options
+• Worldwide delivery (air, sea, or express)
+
+Why Choose Us?
+• Direct Manufacturer with Over 10 Years of Experience
+• Strict Quality Control and ISO-Certified Production
+• OEM/ODM Support and Fast Lead Time
+• Competitive Pricing with Global Export Service`,
   images: ["/products_images/polyester-air-filter-cartridge/durable-polyester-air-filter-cartridge-for-industrial-dust-collectors/durable-polyester-air-filter-cartridge-for-industrial-dust-collectors-001.jpg", "/products_images/polyester-air-filter-cartridge/durable-polyester-air-filter-cartridge-for-industrial-dust-collectors/durable-polyester-air-filter-cartridge-for-industrial-dust-collectors-002.png", "/products_images/polyester-air-filter-cartridge/durable-polyester-air-filter-cartridge-for-industrial-dust-collectors/durable-polyester-air-filter-cartridge-for-industrial-dust-collectors-003.png", "/products_images/polyester-air-filter-cartridge/durable-polyester-air-filter-cartridge-for-industrial-dust-collectors/durable-polyester-air-filter-cartridge-for-industrial-dust-collectors-004.png", "/products_images/polyester-air-filter-cartridge/durable-polyester-air-filter-cartridge-for-industrial-dust-collectors/durable-polyester-air-filter-cartridge-for-industrial-dust-collectors-005.png"],
   features: [
     "Pulse jet cleaning compatible",

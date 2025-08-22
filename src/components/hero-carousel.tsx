@@ -9,7 +9,7 @@ import {
   CarouselItem,
   type CarouselApi 
 } from "@/components/ui/carousel";
-import { ImageWithFallback } from "@/components/ui/image-with-fallback";
+import Image from "next/image";
 import { ArrowRight, Filter, Shield, Wrench } from "lucide-react";
 
 const heroImages = [
@@ -52,7 +52,7 @@ export function HeroCarousel() {
           {heroImages.map((image, index) => (
             <CarouselItem key={index} className="h-[calc(100vh-6rem)] sm:h-[calc(100vh-6.5rem)] pl-0">
               <div className="relative h-full w-full">
-                <ImageWithFallback
+                <Image
                   src={image}
                   alt={`Industrial filtration solution ${index + 1}`}
                   fill
@@ -70,51 +70,52 @@ export function HeroCarousel() {
         
       </Carousel>
 
-      {/* Enhanced Static Content Overlay with Better Visibility */}
+      {/* Enhanced Static Content Overlay with Better Mobile Visibility */}
       <div className="absolute inset-0 flex items-center z-10">
-        <div className="container mx-auto px-4">
-          <div className="max-w-5xl">
+        <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto">
             {/* Text container with backdrop blur for extra visibility */}
-            <div className="bg-foreground/20 backdrop-blur-xs rounded-xl p-6 lg:p-8 border border-background/10">
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-background">
-                <span>Professional</span>
-                <span className="block text-primary filter brightness-110">Filtration & Pumping Solutions</span>
+            <div className="bg-foreground/20 backdrop-blur-md rounded-xl p-4 sm:p-6 lg:p-8 border border-background/10 max-w-4xl">
+              <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 leading-tight text-background">
+                <span className="block">Professional</span>
+                <span className="block text-primary filter brightness-110 mt-1 sm:mt-2">Filtration & Pumping Solutions</span>
               </h1>
               
-              <p className="text-lg md:text-xl mb-8 text-background/90 leading-relaxed font-medium max-w-2xl">
+              <p className="text-sm xs:text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-background/90 leading-relaxed font-medium max-w-2xl">
                 Advanced filtration technology for industrial applications. 
                 Discover our comprehensive range of high-performance systems.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mb-8">
-                <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-4">
-                  <Link href="/products">
-                    Explore Products <ArrowRight className="ml-2 h-5 w-5" />
+              <div className="flex flex-col sm:flex-row sm:justify-start gap-3 sm:gap-4 mb-6 sm:mb-8">
+                <Button asChild size="lg" className="bg-primary text-sm sm:text-base lg:text-lg px-3 sm:px-4 py-3 sm:py-4 w-full sm:w-56 flex-shrink-0">
+                  <Link href="/polyester-air-filter-cartridge" className="flex items-center justify-center">
+                    <span className="mr-2">Explore Products</span>
+                    <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
                   </Link>
                 </Button>
-                <Button variant="outline" size="lg" className="border-2 border-background text-background hover:bg-background hover:text-foreground text-lg px-8 py-4 backdrop-blur-sm bg-background/10">
-                  <Link href="/contact">Get Consultation</Link>
+                <Button variant="outline" size="lg" className="border border-background text-background text-sm sm:text-base lg:text-lg px-3 sm:px-4 py-3 sm:py-4 backdrop-blur-sm bg-background/10 w-full sm:w-56 flex-shrink-0">
+                  <Link href="/contact" className="flex items-center justify-center">Get Consultation</Link>
                 </Button>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl">
-                <div className="flex items-center space-x-3 bg-background/10 backdrop-blur rounded-lg px-4 py-3 border border-background/20">
-                  <div className="bg-primary/20 rounded-full p-2">
-                    <Filter className="h-5 w-5 text-primary filter brightness-125" />
+              <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 max-w-3xl">
+                <div className="flex items-center space-x-2 sm:space-x-3 bg-background/5 backdrop-blur rounded-full px-3 sm:px-4 py-2 sm:py-3 border border-background/10">
+                  <div className="bg-primary/20 rounded-full p-1.5 sm:p-2 flex-shrink-0">
+                    <Filter className="h-4 w-4 sm:h-5 sm:w-5 text-primary filter brightness-125" />
                   </div>
-                  <span className="text-background font-medium">High Efficiency</span>
+                  <span className="text-background font-medium text-sm sm:text-base">High Efficiency</span>
                 </div>
-                <div className="flex items-center space-x-3 bg-background/10 backdrop-blur rounded-lg px-4 py-3 border border-background/20">
-                  <div className="bg-primary/20 rounded-full p-2">
-                    <Shield className="h-5 w-5 text-primary filter brightness-125" />
+                <div className="flex items-center space-x-2 sm:space-x-3 bg-background/5 backdrop-blur rounded-full px-3 sm:px-4 py-2 sm:py-3 border border-background/10">
+                  <div className="bg-primary/20 rounded-full p-1.5 sm:p-2 flex-shrink-0">
+                    <Shield className="h-4 w-4 sm:h-5 sm:w-5 text-primary filter brightness-125" />
                   </div>
-                  <span className="text-background font-medium">Certified Quality</span>
+                  <span className="text-background font-medium text-sm sm:text-base">Certified Quality</span>
                 </div>
-                <div className="flex items-center space-x-3 bg-background/10 backdrop-blur rounded-lg px-4 py-3 border border-background/20">
-                  <div className="bg-primary/20 rounded-full p-2">
-                    <Wrench className="h-5 w-5 text-primary filter brightness-125" />
+                <div className="flex items-center space-x-2 sm:space-x-3 bg-background/5 backdrop-blur rounded-full px-3 sm:px-4 py-2 sm:py-3 border border-background/10 xs:col-span-2 sm:col-span-1">
+                  <div className="bg-primary/20 rounded-full p-1.5 sm:p-2 flex-shrink-0">
+                    <Wrench className="h-4 w-4 sm:h-5 sm:w-5 text-primary filter brightness-125" />
                   </div>
-                  <span className="text-background font-medium">Custom Solutions</span>
+                  <span className="text-background font-medium text-sm sm:text-base">Custom Solutions</span>
                 </div>
               </div>
             </div>
@@ -123,15 +124,15 @@ export function HeroCarousel() {
       </div>
 
       {/* Enhanced Dots Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-4 z-20">
+      <div className="absolute bottom-6 sm:bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2 sm:space-x-4 z-20">
         {heroImages.map((_, index) => (
           <button
             key={index}
-            className={`relative transition-all duration-500 ease-out ${
-              current === index 
-                ? "w-10 h-4 bg-primary scale-110" 
-                : "w-4 h-4 bg-background/60 hover:bg-background/80 hover:scale-105"
-            } rounded-full backdrop-blur-sm border border-background/20`}
+            className={`relative rounded-full transition-all duration-300 ease-in-out hover:scale-110 ${
+              index === current
+                ? "w-8 sm:w-10 h-3 sm:h-4 bg-primary shadow-lg shadow-primary/50"
+                : "w-3 sm:w-4 h-3 sm:h-4 bg-background/60 hover:bg-background/80"
+            }`}
             onClick={() => api?.scrollTo(index)}
             aria-label={`Go to slide ${index + 1}`}
           />

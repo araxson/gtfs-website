@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Roboto, Roboto_Mono } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import { SiteFooter } from "@/components/site-footer";
 import { ErrorBoundary } from "@/components/error-boundary";
@@ -12,12 +12,6 @@ const roboto = Roboto({
   variable: "--font-roboto",
   subsets: ["latin"],
   weight: ["300", "400", "500", "700", "900"],
-});
-
-const robotoMono = Roboto_Mono({
-  variable: "--font-roboto-mono",
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
@@ -63,7 +57,7 @@ export default async function RootLayout({
         <StructuredData data={websiteStructuredData} />
       </head>
       <body
-        className={`${roboto.variable} ${robotoMono.variable} antialiased min-h-screen flex flex-col bg-background text-foreground`}
+        className={`${roboto.variable} antialiased min-h-screen flex flex-col bg-background text-foreground`}
       >
         <BreadcrumbProvider>
           <ClientSiteHeader navItems={navigation.mainNav} />

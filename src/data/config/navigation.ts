@@ -6,9 +6,9 @@ export const navigation = {
       description: "Welcome to Global Tech Fluid Services"
     },
     {
-      title: "Products",
-      href: "/products", 
-      description: "Browse our complete range of filter products",
+      title: "Categories",
+      href: "#", 
+      description: "Browse our complete range of filter categories",
       children: [
         {
           title: "Polyester Air Filter Cartridge",
@@ -79,7 +79,7 @@ export const navigation = {
       items: [
         {
           title: "Filter Cartridges",
-          href: "/products"
+          href: "/polyester-air-filter-cartridge"
         },
         {
           title: "Dust Collectors",

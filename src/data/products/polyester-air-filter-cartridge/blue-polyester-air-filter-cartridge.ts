@@ -4,9 +4,48 @@ export const bluePolyesterAirFilterCartridge: Product = {
   id: "blue-polyester-air-filter-cartridge",
   name: "Blue Polyester Air Filter Cartridge",
   productType: "Blue Polyester Air Filter Cartridge",
-  model: "-",
+  model: "Blue Polyester Cartridge",
   brand: "FORST FILTER",
-  description: "Blue Polyester Air Filter Cartridge Product Overview Our Blue Polyester Air Filter Cartridge is designed for high-efficiency dust filtration in industrial environments.Made from durable polyester media with excellent moisture and chemical resistance, this filter cartridge offers superior performance, long service life, and easy maintenance. The vibrant blue color not only enhances visual identification but also signifies its high-grade synthetic construction. Key Features Premium Polyester Filte...",
+  description: "Blue polyester filter cartridge for high-efficiency industrial dust filtration. Features washable and reusable media, chemical resistance, and distinctive blue color for easy identification.",
+  detailedDescription: `Blue Polyester Air Filter Cartridge
+
+Product Overview
+Our Blue Polyester Air Filter Cartridge is designed for high-efficiency dust filtration in industrial environments. Made from durable polyester media with excellent moisture and chemical resistance, this filter cartridge offers superior performance, long service life, and easy maintenance. The vibrant blue color not only enhances visual identification but also signifies its high-grade synthetic construction.
+
+Key Features
+• Premium Polyester Filter Media: Washable, reusable, and resistant to moisture and chemicals
+• High Filtration Efficiency: Captures fine dust with low pressure drop for energy savings
+• Sturdy Construction: Reinforced inner core and metal end caps withstand industrial conditions
+• Customizable Design: Multiple sizes, pleat counts, and end cap styles available
+• Vivid Blue Color: Easy to identify and ensures consistent quality control
+
+Technical Specifications
+Media Material: 100% Polyester (Blue)
+Filtration Efficiency: Up to 99.9%
+Operating Temperature: -20°C to 120°C (-4°F to 248°F)
+End Cap Material: Galvanized or Powder-coated Steel
+Seal Type: Urethane / Rubber Gasket
+Dimensions: Customizable (OD, ID, Height)
+Reusability: Washable and Reusable
+
+Applications
+• Powder Coating Booths
+• Welding Fume Extraction
+• Woodworking Dust Removal
+• Cement and Mining Plants
+• Pharmaceutical & Chemical Processing
+• Metalworking & Surface Treatment
+
+Packaging & Shipping
+• Each filter is individually wrapped in protective packaging
+• Customized labeling and boxes available upon request
+• Ships globally via air, sea, or express courier (DHL/UPS/FedEx)
+
+Why Choose Us?
+• Professional filter cartridge manufacturer
+• OEM & ODM service available
+• Strict quality control & fast turnaround time
+• Extensive global export experience`,
   images: ["/products_images/polyester-air-filter-cartridge/blue-polyester-air-filter-cartridge/blue-polyester-air-filter-cartridge-001.jpg", "/products_images/polyester-air-filter-cartridge/blue-polyester-air-filter-cartridge/blue-polyester-air-filter-cartridge-002.jpg", "/products_images/polyester-air-filter-cartridge/blue-polyester-air-filter-cartridge/blue-polyester-air-filter-cartridge-003.jpg"],
   features: [
     "Customizable dimensions and specifications"
@@ -15,16 +54,19 @@ export const bluePolyesterAirFilterCartridge: Product = {
   advantages: ["-"],
   benefits: ["-"],
   applications: [
-    "Industrial dust collection",
+    "Powder coating booths",
     "Welding fume extraction",
-    "Woodworking dust collection"
+    "Woodworking dust removal",
+    "Cement and mining plants",
+    "Pharmaceutical & chemical processing",
+    "Metalworking & surface treatment"
   ],
   dimensions: {
-    customizable: false,
-    outerDiameter: "-",
-    innerDiameter: "-",
-    length: "-",
-    height: "-",
+    customizable: true,
+    outerDiameter: "Customizable",
+    innerDiameter: "Customizable",
+    length: "Customizable",
+    height: "Customizable",
     width: "-",
     rollWidth: "-",
     rollLength: "-",
@@ -56,13 +98,13 @@ export const bluePolyesterAirFilterCartridge: Product = {
     expandable: "-"
   },
   technicalSpecs: {
-    filtrationEfficiency: "≥99% @ 1.0μm",
-    operatingTemperature: "Up to 120°C",
-    temperatureRange: "-",
+    filtrationEfficiency: "Up to 99.9%",
+    operatingTemperature: "-20°C to 120°C (-4°F to 248°F)",
+    temperatureRange: "-20°C to 120°C",
     surfaceResistance: "-",
     filtrationSurface: "-",
     airflowCapacity: "-",
-    materialType: "-",
+    materialType: "100% Polyester (Blue)",
     airPermeability: "-",
     tensileStrength: "-",
     wetStrength: "-",
@@ -107,11 +149,11 @@ export const bluePolyesterAirFilterCartridge: Product = {
     flexibility: "-"
   },
   materials: {
-    filterMedia: "Premium filter materials",
-    construction: "-",
-    endCap: "-",
-    gasket: "-",
-    core: "-",
+    filterMedia: "100% Polyester (Blue)",
+    construction: "Reinforced inner core and metal end caps",
+    endCap: "Galvanized or Powder-coated Steel",
+    gasket: "Urethane / Rubber Gasket",
+    core: "Reinforced inner core",
     additives: "-",
     treatment: "-",
     baseMedia: "-",
@@ -151,11 +193,11 @@ export const bluePolyesterAirFilterCartridge: Product = {
     oilWaterRepellent: false,
     ptfeMembrane: false,
     fireRetardant: false,
-    moistureResistant: false,
+    moistureResistant: true,
     conductive: false,
-    washable: false,
+    washable: true,
     biodegradable: false,
-    chemicalResistant: false,
+    chemicalResistant: true,
     temperatureResistant: false,
     highTemperature: false,
     ultraHighTemperature: false,
@@ -163,11 +205,11 @@ export const bluePolyesterAirFilterCartridge: Product = {
     corrosionResistant: false
   },
   availableSizes: [{
-    model: "-",
-    outerDiameter: "-",
-    innerDiameter: "-",
-    length: "-",
-    filtrationSurface: "-"
+    model: "Blue Polyester Cartridge",
+    outerDiameter: "Customizable",
+    innerDiameter: "Customizable",
+    length: "Customizable",
+    filtrationSurface: "Customizable"
   }],
   customizationOptions: ["-"],
   qualityStandards: ["-"],

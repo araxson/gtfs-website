@@ -6,7 +6,8 @@ export const fiberglassForstFilterMedia: Product = {
   productType: "Fiberglass Forst Filter Media",
   model: "SFF/A3266 Fiberglass Filter Media",
   brand: "FORST FILTER",
-  description: "-",
+  description: "High-quality fiberglass filter media for industrial air filtration applications. Features excellent filtration efficiency and durable construction for long-term performance.",
+  detailedDescription: "Fiberglass filter media is made of long fiberglass in non-woven way, large ventilation quantity, small resistance, good efficiency of the dust arrestance for the over-spray. It is applied to the superficial spray coating high quality painting-spray filtration, high dust catching for PA-50/60/PA-100, especially suitable for using heat recovery system. This premium filter media offers excellent performance characteristics including high filtration efficiency, low airflow resistance, and superior durability. The fiberglass construction provides resistance to moisture and corrosion, making it suitable for various industrial environments. Available in multiple configurations to meet diverse filtration requirements across automotive, manufacturing, and industrial applications.",
   images: ["/products_images/fiberglass-filter-media/fiberglass-forst-filter-media/fiberglass-forst-filter-media-001.png", "/products_images/fiberglass-filter-media/fiberglass-forst-filter-media/fiberglass-forst-filter-media-002.png", "/products_images/fiberglass-filter-media/fiberglass-forst-filter-media/fiberglass-forst-filter-media-003.jpg", "/products_images/fiberglass-filter-media/fiberglass-forst-filter-media/fiberglass-forst-filter-media-004.jpg", "/products_images/fiberglass-filter-media/fiberglass-forst-filter-media/fiberglass-forst-filter-media-005.jpg", "/products_images/fiberglass-filter-media/fiberglass-forst-filter-media/fiberglass-forst-filter-media-006.jpg"],
   features: [
     "High-quality filter media",
@@ -18,10 +19,12 @@ export const fiberglassForstFilterMedia: Product = {
   advantages: ["-"],
   benefits: ["-"],
   applications: [
-  "Air filtration systems",
-  "Dust control applications",
-  "Manufacturing processes"
-],
+    "Superficial spray coating",
+    "High quality painting-spray filtration",
+    "Heat recovery systems",
+    "PA-50/60/PA-100 systems",
+    "Over-spray dust arrestance"
+  ],
   dimensions: {
     customizable: false,
     outerDiameter: "-",

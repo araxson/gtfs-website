@@ -78,7 +78,7 @@ const BrandGuidelinesPage = () => {
       {/* Skip Navigation Link */}
       <a
         href="#main-content"
-        className="sr-only focus:not-sr-only focus:absolute focus:top-6 focus:left-4 bg-primary text-primary-foreground px-4 py-2 rounded-md z-50 transition-all duration-200"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-6 focus:left-4 bg-primary text-primary-foreground px-4 py-2 rounded-md z-50"
       >
         Skip to main content
       </a>
@@ -151,7 +151,7 @@ const BrandGuidelinesPage = () => {
                     key={item.href}
                     href={item.href}
                     onClick={(e) => scrollToSection(e, item.href)}
-                    className="group block p-4 sm:p-6 bg-card hover:bg-muted/50 rounded-lg border-[--border] focus:outline-none focus:ring-2 focus:ring-primary"
+                    className="group block p-4 sm:p-6 bg-card rounded-lg border-[--border] focus:outline-none focus:ring-2 focus:ring-primary"
                     role="button"
                     aria-label={`Navigate to ${item.title} section`}
                   >
@@ -432,7 +432,7 @@ const BrandGuidelinesPage = () => {
                       
                       {/* Large red X overlay to show this is wrong */}
                       <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="text-destructive text-3xl font-bold opacity-80 drop-shadow-xs">✕</div>
+                        <div className="text-destructive text-3xl font-bold opacity-80 drop-shadow-none">✕</div>
                       </div>
                     </div>
                     
@@ -507,10 +507,10 @@ const BrandGuidelinesPage = () => {
                     <CardContent>
                       <h4 className="font-bold text-primary mb-3">{colorItem.name}</h4>
                       <div className="grid grid-cols-2 gap-2 mb-3">
-                        <div className="text-xs bg-muted/50 p-2 rounded text-center font-mono">{colorItem.hex}</div>
-                        <div className="text-xs bg-muted/50 p-2 rounded text-center font-mono">{colorItem.rgb}</div>
-                        <div className="text-xs bg-muted/50 p-2 rounded text-center font-mono">{colorItem.hsl}</div>
-                        <div className="text-xs bg-muted/50 p-2 rounded text-center font-mono">{colorItem.cmyk}</div>
+                        <div className="text-xs bg-muted/50 p-2 rounded text-center font-medium">{colorItem.hex}</div>
+                        <div className="text-xs bg-muted/50 p-2 rounded text-center font-medium">{colorItem.rgb}</div>
+                        <div className="text-xs bg-muted/50 p-2 rounded text-center font-medium">{colorItem.hsl}</div>
+                        <div className="text-xs bg-muted/50 p-2 rounded text-center font-medium">{colorItem.cmyk}</div>
                       </div>
                       <p className="text-sm text-muted-foreground text-center leading-relaxed">{colorItem.usage}</p>
                     </CardContent>
@@ -658,7 +658,7 @@ const BrandGuidelinesPage = () => {
                 <CardContent>
                   <div className="bg-muted/50 rounded-lg p-6">
                     <p className="text-2xl font-semibold text-primary mb-4">System UI Stack</p>
-                    <p className="text-sm text-muted-foreground font-mono mb-3">
+                    <p className="text-sm text-muted-foreground font-medium mb-3">
                       &apos;Roboto&apos;, -apple-system, BlinkMacSystemFont, &apos;Segoe UI&apos;, &apos;Helvetica Neue&apos;, Arial, sans-serif
                     </p>
                     <p className="text-sm text-muted-foreground">

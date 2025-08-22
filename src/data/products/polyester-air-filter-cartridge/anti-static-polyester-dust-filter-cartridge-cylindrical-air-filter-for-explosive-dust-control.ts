@@ -6,7 +6,50 @@ export const antiStaticPolyesterDustFilterCartridgeCylindricalAirFilterForExplos
   productType: "Anti-Static Polyester Dust Filter Cartridge | Cylindrical Air Filter for Explosive Dust Control",
   model: "-",
   brand: "FORST FILTER",
-  description: "-",
+  description: "Anti-static polyester cylindrical filter cartridge for explosive dust environments. Features conductive media, pulse jet cleaning compatibility, and ATEX compliance for safe operation.",
+  detailedDescription: `Anti-Static Polyester Dust Filter Cartridge | Cylindrical Air Filter for Explosive Dust Control
+
+Product Overview
+This Anti-Static Polyester Cylindrical Dust Filter Cartridge is designed for industrial dust collection systems operating in ATEX or flammable dust environments. It features conductive polyester media to safely dissipate static charges, reducing the risk of explosion in high-risk zones. Widely used in powder coating, metal processing, and pharmaceutical dust extraction.
+
+Features, Advantages & Benefits
+• Conductive Polyester Filter Media: Prevents electrostatic buildup in explosive environments
+• Cylindrical Pleated Structure: Maximizes surface area and ensures low pressure drop
+• Pulse Jet Cleaning Compatible: Allows automatic cleaning and extended lifespan
+• Low Surface Resistance: ≤10⁶ Ohms, compliant with ATEX safety requirements
+• Corrosion-Resistant Metal Core: Galvanized or stainless steel construction for durability
+• Custom Sizes & OEM Branding: Fits your system precisely and supports brand identity
+
+Technical Specifications
+Filter Media: Conductive Polyester (Anti-Static)
+Filtration Efficiency: ≥99.9% @ ≥1.0μm
+Surface Resistance: ≤10⁶ Ω
+Outer Diameter: 325 mm (customizable)
+Length: 660 mm / 700 mm / Custom
+End Caps: Galvanized / Stainless Steel
+Inner Core: Expanded Metal Mesh
+Gasket Type: Conductive PU / EPDM / Neoprene
+Temperature Resistance: Up to 120°C
+Cleaning Method: Pulse Jet / Manual
+
+Applications
+• Powder Coating & Paint Booths
+• ATEX Zone Dust Collection
+• Pharmaceutical Powder Handling
+• Food Production with Fine Dust
+• Aluminum & Metal Processing Plants
+
+Packaging & Delivery
+• Individually wrapped in PE film
+• Cartons or palletized for bulk shipments
+• OEM/ODM logo printing available
+• Worldwide shipping by air, sea, or express
+
+Why Choose Our Anti-Static Filter Cartridges?
+• ISO-Certified Production & Quality Control
+• Anti-static solutions tailored to ATEX compliance
+• Factory-direct pricing and fast turnaround
+• Trusted supplier to EU and North American markets`,
   images: ["/products_images/polyester-air-filter-cartridge/anti-static-polyester-dust-filter-cartridge-cylindrical-air-filter-for-explosive-dust-control/anti-static-polyester-dust-filter-cartridge-cylindrical-air-filter-for-explosive-dust-control-001.png", "/products_images/polyester-air-filter-cartridge/anti-static-polyester-dust-filter-cartridge-cylindrical-air-filter-for-explosive-dust-control/anti-static-polyester-dust-filter-cartridge-cylindrical-air-filter-for-explosive-dust-control-002.png", "/products_images/polyester-air-filter-cartridge/anti-static-polyester-dust-filter-cartridge-cylindrical-air-filter-for-explosive-dust-control/anti-static-polyester-dust-filter-cartridge-cylindrical-air-filter-for-explosive-dust-control-003.png", "/products_images/polyester-air-filter-cartridge/anti-static-polyester-dust-filter-cartridge-cylindrical-air-filter-for-explosive-dust-control/anti-static-polyester-dust-filter-cartridge-cylindrical-air-filter-for-explosive-dust-control-004.png", "/products_images/polyester-air-filter-cartridge/anti-static-polyester-dust-filter-cartridge-cylindrical-air-filter-for-explosive-dust-control/anti-static-polyester-dust-filter-cartridge-cylindrical-air-filter-for-explosive-dust-control-005.png"],
   features: [
     "Anti-static properties for explosive dust environments",
@@ -17,14 +60,17 @@ export const antiStaticPolyesterDustFilterCartridgeCylindricalAirFilterForExplos
   advantages: ["-"],
   benefits: ["-"],
   applications: [
-  "Industrial dust collection",
-  "Metal processing industry"
-],
+    "Powder coating & paint booths",
+    "ATEX zone dust collection",
+    "Pharmaceutical powder handling",
+    "Food production with fine dust",
+    "Aluminum & metal processing plants"
+  ],
   dimensions: {
-    customizable: false,
-    outerDiameter: "-",
-    innerDiameter: "-",
-    length: "-",
+    customizable: true,
+    outerDiameter: "325mm (customizable)",
+    innerDiameter: "Standard",
+    length: "660mm/700mm/Custom",
     height: "-",
     width: "-",
     rollWidth: "-",
@@ -41,7 +87,7 @@ export const antiStaticPolyesterDustFilterCartridgeCylindricalAirFilterForExplos
     compact: "-",
     cartridgeCapacity: "-",
     flangeSize: "-",
-    shape: "-",
+    shape: "Cylindrical",
     cartridgeAngle: "-",
     specialSizes: "-",
     standardSizes: ["-"],
@@ -57,13 +103,13 @@ export const antiStaticPolyesterDustFilterCartridgeCylindricalAirFilterForExplos
     expandable: "-"
   },
   technicalSpecs: {
-    filtrationEfficiency: "≥99% @ 1.0μm",
-    operatingTemperature: "Up to 135°C",
+    filtrationEfficiency: "≥99.9% @ ≥1.0μm",
+    operatingTemperature: "Up to 120°C",
     temperatureRange: "-",
-    surfaceResistance: "-",
+    surfaceResistance: "≤10⁶ Ω (ATEX compliant)",
     filtrationSurface: "-",
     airflowCapacity: "-",
-    materialType: "-",
+    materialType: "Conductive Polyester (Anti-Static)",
     airPermeability: "-",
     tensileStrength: "-",
     wetStrength: "-",
@@ -80,11 +126,11 @@ export const antiStaticPolyesterDustFilterCartridgeCylindricalAirFilterForExplos
     saltResistance: "-",
     mountingType: "-",
     mechanicalStrength: "-",
-    minimumParticleSize: "-",
+    minimumParticleSize: "1.0μm",
     suctionPower: "-",
     motorPower: "-",
     mobility: "-",
-    cleaningSystem: "-",
+    cleaningSystem: "Pulse Jet / Manual",
     airflow: "-",
     operation: "-",
     collectionEfficiency: "-",
@@ -108,11 +154,11 @@ export const antiStaticPolyesterDustFilterCartridgeCylindricalAirFilterForExplos
     flexibility: "-"
   },
   materials: {
-    filterMedia: "Premium filter materials",
-    construction: "-",
-    endCap: "-",
-    gasket: "-",
-    core: "-",
+    filterMedia: "Conductive Polyester (Anti-Static)",
+    construction: "Cylindrical pleated structure",
+    endCap: "Galvanized / Stainless Steel",
+    gasket: "Conductive PU / EPDM / Neoprene",
+    core: "Expanded Metal Mesh",
     additives: "-",
     treatment: "-",
     baseMedia: "-",
@@ -148,12 +194,12 @@ export const antiStaticPolyesterDustFilterCartridgeCylindricalAirFilterForExplos
     size: "-"
   },
   treatments: {
-    antiStatic: false,
+    antiStatic: true,
     oilWaterRepellent: false,
     ptfeMembrane: false,
     fireRetardant: false,
     moistureResistant: false,
-    conductive: false,
+    conductive: true,
     washable: false,
     biodegradable: false,
     chemicalResistant: false,

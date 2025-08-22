@@ -6,7 +6,51 @@ export const highPerformanceCarbonFiberDustFilterCartridgeIndustrialAirFiltratio
   productType: "High-Performance Carbon Fiber Dust Filter Cartridge | Industrial Air Filtration",
   model: "-",
   brand: "FORST FILTER",
-  description: "-",
+  description: "High-performance carbon fiber dust filter cartridge with anti-static properties and high-temperature resistance up to 150°C. Ideal for explosive dust environments and electronic manufacturing areas.",
+  detailedDescription: `High-Performance Carbon Fiber Dust Filter Cartridge | Industrial Air Filtration
+
+Product Overview
+Our Carbon Fiber Dust Filter Cartridge is engineered to deliver high-efficiency filtration in environments that demand anti-static, high-temperature, and fine particulate control. With conductive carbon fiber media and durable construction, it is ideal for use in explosive dust, flammable gas, and electronic manufacturing areas.
+
+Features, Advantages & Benefits
+• Conductive Carbon Fiber Media: Prevents electrostatic discharge, ensuring safety in explosive environments
+• High-Temperature Resistance: Operates reliably in temperatures up to 150°C
+• Pleated Cylindrical Design: Increases surface area and enhances airflow
+• Durable End Caps & Core: Stainless steel or galvanized steel options for strength and corrosion resistance
+• Pulse Jet Cleaning Compatible: Supports automatic cleaning systems for reduced maintenance
+• Custom Fit Options: Tailored sizes and gasket types for your equipment model
+
+Technical Specifications
+Filter Media: Carbon Fiber / Conductive Polyester Blend
+Filtration Efficiency: ≥99.9% @ 1.0μm
+Outer Diameter: 325 mm (customizable)
+Length: 660 mm / 700 mm / Custom
+End Caps: Galvanized Steel / Stainless Steel
+Core Support: Expanded Metal Mesh (Anti-corrosive)
+Gasket Type: PU / EPDM / Conductive Rubber
+Temperature Resistance: Up to 150°C
+Electrostatic Resistance: <10⁶ Ω
+Cleaning Method: Pulse Jet / Manual
+
+Applications
+• Electronics and Semiconductor Dust Control
+• Powder Coating with Flammable Powders
+• Metalworking and CNC Machining
+• Pharmaceuticals with Static-Sensitive Materials
+• Explosive Dust Extraction (ATEX Zones)
+
+Packaging & Delivery
+• Each filter packed in protective film and carton
+• OEM logo and label available
+• Global shipping support: air, sea, express
+• Bulk pallet packaging for large orders
+
+Why Choose Us?
+• Direct Manufacturer with ISO-certified production
+• Specialized in anti-static and high-performance filters
+• OEM & ODM support available
+• Fast production and global delivery
+• Exported to EU, US, Southeast Asia`,
   images: ["/products_images/polyester-air-filter-cartridge/high-performance-carbon-fiber-dust-filter-cartridge-industrial-air-filtration/high-performance-carbon-fiber-dust-filter-cartridge-industrial-air-filtration-001.png", "/products_images/polyester-air-filter-cartridge/high-performance-carbon-fiber-dust-filter-cartridge-industrial-air-filtration/high-performance-carbon-fiber-dust-filter-cartridge-industrial-air-filtration-002.png", "/products_images/polyester-air-filter-cartridge/high-performance-carbon-fiber-dust-filter-cartridge-industrial-air-filtration/high-performance-carbon-fiber-dust-filter-cartridge-industrial-air-filtration-003.png", "/products_images/polyester-air-filter-cartridge/high-performance-carbon-fiber-dust-filter-cartridge-industrial-air-filtration/high-performance-carbon-fiber-dust-filter-cartridge-industrial-air-filtration-004.png"],
   features: [
     "Anti-static properties for explosive dust environments",

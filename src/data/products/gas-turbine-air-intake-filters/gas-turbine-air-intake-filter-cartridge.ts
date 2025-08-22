@@ -6,25 +6,31 @@ export const gasTurbineAirIntakeFilterCartridge: Product = {
   productType: "Gas Turbine Air Intake Filter Cartridge",
   model: "SFF/Z3266",
   brand: "FORST FILTER",
-  description: "-",
+  description: "Modern and reliable gas turbine air intake filter cartridge for power plants, oil & gas, and compressor applications.",
+  detailedDescription: "Gas Turbine Air Intake Filter cartridges are modern and reliable for air intake applications. They ensure high efficient filtration of dust and other contaminants even in the most polluted environments. Normally these are made of mixture of polyester & cellulose and Nanofiber media. These media have much better pleat ability & dimensional stability. Pleated filter media offer high filtration efficiency, very fine retention level, easy clean ability & aesthetically good product than other normal filter media. Features: (1) Air Intake Cartridges for gas turbines and Air compressors are modern and Reliable. (2) The variety and range of materials and specifications make it possible to find suitable filter media for any environmental conditions. (3) The quality of the materials used ensure high performance standards. Available in multiple configurations including cylinder and cone shapes with various outer diameters (324mm, 408mm, 445mm), inner diameters (134mm, 213mm, 293mm), lengths ranging from 559mm to 925mm, and filter areas from 16.4m² to 34.3m². Specific models include SFF-01 through SFF-06 in cylinder shapes, cone variations, and TenKay type configurations. Used extensively in power plants, oil & gas facilities, and compressor systems where reliable air intake filtration is critical for equipment protection and operational efficiency.",
   images: ["/products_images/gas-turbine-air-intake-filters/gas-turbine-air-intake-filter-cartridge/gas-turbine-air-intake-filter-cartridge-001.png", "/products_images/gas-turbine-air-intake-filters/gas-turbine-air-intake-filter-cartridge/gas-turbine-air-intake-filter-cartridge-002.png", "/products_images/gas-turbine-air-intake-filters/gas-turbine-air-intake-filter-cartridge/gas-turbine-air-intake-filter-cartridge-003.jpg", "/products_images/gas-turbine-air-intake-filters/gas-turbine-air-intake-filter-cartridge/gas-turbine-air-intake-filter-cartridge-004.jpg", "/products_images/gas-turbine-air-intake-filters/gas-turbine-air-intake-filter-cartridge/gas-turbine-air-intake-filter-cartridge-005.jpg", "/products_images/gas-turbine-air-intake-filters/gas-turbine-air-intake-filter-cartridge/gas-turbine-air-intake-filter-cartridge-006.png"],
   features: [
-    "High-quality filter media",
-    "Excellent filtration efficiency",
-    "Durable construction",
-    "Professional grade materials"
+    "Modern and reliable air intake cartridges",
+    "High efficient filtration in polluted environments",
+    "Better pleat ability & dimensional stability",
+    "High filtration efficiency and fine retention level",
+    "Easy clean ability and aesthetic design"
   ],
   specialFeatures: ["-"],
   advantages: ["-"],
   benefits: ["-"],
   applications: [
-  "Gas turbine air intake filtration"
-],
+    "Power plants",
+    "Oil & gas facilities",
+    "Compressor systems",
+    "Gas turbine air intake filtration",
+    "Air compressor applications"
+  ],
   dimensions: {
-    customizable: false,
-    outerDiameter: "-",
-    innerDiameter: "-",
-    length: "-",
+    customizable: true,
+    outerDiameter: "324mm, 408mm, 445mm",
+    innerDiameter: "134mm, 213mm, 293mm",
+    length: "559mm to 925mm",
     height: "-",
     width: "-",
     rollWidth: "-",
@@ -41,7 +47,7 @@ export const gasTurbineAirIntakeFilterCartridge: Product = {
     compact: "-",
     cartridgeCapacity: "-",
     flangeSize: "-",
-    shape: "-",
+    shape: "Cylinder and cone shapes",
     cartridgeAngle: "-",
     specialSizes: "-",
     standardSizes: ["-"],
@@ -57,13 +63,13 @@ export const gasTurbineAirIntakeFilterCartridge: Product = {
     expandable: "-"
   },
   technicalSpecs: {
-    filtrationEfficiency: "≥99% @ 1.0μm",
-    operatingTemperature: "Up to 135°C",
+    filtrationEfficiency: "High efficient filtration",
+    operatingTemperature: "According to environmental conditions",
     temperatureRange: "-",
     surfaceResistance: "-",
-    filtrationSurface: "-",
+    filtrationSurface: "16.4m² to 34.3m²",
     airflowCapacity: "-",
-    materialType: "-",
+    materialType: "Mixture of polyester & cellulose and Nanofiber media",
     airPermeability: "-",
     tensileStrength: "-",
     wetStrength: "-",
@@ -72,7 +78,7 @@ export const gasTurbineAirIntakeFilterCartridge: Product = {
     chemicalResistance: "-",
     dimensionalStability: "-",
     serviceLife: "-",
-    specialProperties: "-",
+    specialProperties: "Better pleat ability & dimensional stability",
     initialPressureDrop: "-",
     dustHoldingCapacity: "-",
     thermalStability: "-",
@@ -108,9 +114,9 @@ export const gasTurbineAirIntakeFilterCartridge: Product = {
     flexibility: "-"
   },
   materials: {
-    filterMedia: "Premium filter materials",
-    construction: "-",
-    endCap: "-",
+    filterMedia: "Mixture of polyester & cellulose and Nanofiber media",
+    construction: "Modern and reliable construction",
+    endCap: "High performance standards",
     gasket: "-",
     core: "-",
     additives: "-",
@@ -163,13 +169,29 @@ export const gasTurbineAirIntakeFilterCartridge: Product = {
     thermalShock: false,
     corrosionResistant: false
   },
-  availableSizes: [{
-    model: "-",
-    outerDiameter: "-",
-    innerDiameter: "-",
-    length: "-",
-    filtrationSurface: "-"
-  }],
+  availableSizes: [
+    {
+      model: "SFF-01",
+      outerDiameter: "324mm",
+      innerDiameter: "213mm",
+      length: "559mm-925mm",
+      filtrationSurface: "16.4m²-34.3m²"
+    },
+    {
+      model: "SFF-02",
+      outerDiameter: "408mm",
+      innerDiameter: "134mm",
+      length: "Various",
+      filtrationSurface: "Various"
+    },
+    {
+      model: "SFF-03 to SFF-06",
+      outerDiameter: "445mm",
+      innerDiameter: "293mm",
+      length: "Various",
+      filtrationSurface: "Various"
+    }
+  ],
   customizationOptions: ["-"],
   qualityStandards: ["-"],
   dataSheet: "-",

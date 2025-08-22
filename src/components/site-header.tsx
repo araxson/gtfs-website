@@ -37,60 +37,66 @@ export function SiteHeader({ navItems }: SiteHeaderProps) {
   }, [lastScrollY])
 
   return (
-    <header className={`sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 transition-transform duration-300 ${
+    <header className={`sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 transition-transform duration-300 ease-in-out ${
       isVisible ? 'translate-y-0' : '-translate-y-full'
     }`}>
       {/* Top Bar with Contact Info */}
       <div className="border-b bg-muted/50 w-full">
-        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 flex h-10 items-center justify-between text-xs sm:text-sm">
-          <div className="flex items-center space-x-2 sm:space-x-4">
-            <div className="flex items-center space-x-1">
-              <Phone className="h-3 w-3" />
-              <span className="hidden sm:inline">Contact: </span>
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 flex h-8 sm:h-9 md:h-10 items-center justify-between text-xs sm:text-sm">
+          <div className="flex flex-wrap items-center gap-2 sm:gap-3 md:gap-4 min-w-0">
+            <div className="flex items-center gap-1 min-w-0">
+              <Phone className="h-3 w-3 flex-shrink-0 text-muted-foreground" />
+              <span className="hidden sm:inline text-muted-foreground">Contact: </span>
               <a 
                 href={`tel:${contactInfo.phone}`}
-                className="hover:underline hover:text-primary transition-colors text-xs sm:text-sm"
+                className="text-xs sm:text-sm touch-manipulation hover:text-primary transition-colors font-medium truncate"
               >
                 {contactInfo.phone}
               </a>
             </div>
-            <div className="flex items-center space-x-1">
-              <Mail className="h-3 w-3" />
+            <div className="flex items-center gap-1 min-w-0">
+              <Mail className="h-3 w-3 flex-shrink-0 text-muted-foreground" />
               <a 
                 href={`mailto:${contactInfo.email}`}
-                className="hover:underline hover:text-primary transition-colors text-xs sm:text-sm"
+                className="text-xs sm:text-sm touch-manipulation hover:text-primary transition-colors font-medium truncate"
               >
                 {contactInfo.email}
               </a>
             </div>
           </div>
-          <div className="flex items-center space-x-4">
-            <span className="hidden lg:inline text-muted-foreground">
+          <div className="flex items-center min-w-0">
+            <span className="hidden xl:inline text-muted-foreground text-xs font-medium truncate">
               Delivering Efficient & Durable Filtration & Pumping Solutions
+            </span>
+            <span className="hidden lg:inline xl:hidden text-muted-foreground text-xs font-medium truncate">
+              Quality Filtration Solutions
+            </span>
+            <span className="hidden md:inline lg:hidden text-muted-foreground text-xs font-medium truncate">
+              Quality Solutions
             </span>
           </div>
         </div>
       </div>
 
       {/* Main Header */}
-      <div className="border-b w-full">
-        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 flex h-14 sm:h-16 items-center justify-between">
+      <div className="border-b w-full shadow-none">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 flex h-14 sm:h-16 lg:h-18 items-center justify-between gap-4">
         <MainNav items={navItems} />
         
-        <div className="flex items-center space-x-1 sm:space-x-2 md:space-x-4">
-          {/* Search - Only show on desktop */}
-          <div className="hidden md:block">
+        <div className="flex items-center gap-2 md:gap-3 lg:gap-4 flex-shrink-0">
+          {/* Search - Show on tablet+ */}
+          <div className="hidden lg:block">
             <NavbarSearch />
           </div>
           
-          {/* CTA Buttons */}
-          <div className="flex items-center space-x-1">
-            <Button variant="outline" size="sm" asChild className="hidden md:inline-flex">
+          {/* CTA Buttons - Better responsive design */}
+          <div className="flex items-center gap-1 sm:gap-2">
+            <Button variant="outline" size="sm" asChild className="hidden xl:inline-flex text-sm px-3 py-2">
               <Link href="/contact">
                 Get Quote
               </Link>
             </Button>
-            <Button size="sm" asChild className="hidden xs:inline-flex">
+            <Button size="sm" asChild className="hidden sm:inline-flex text-sm px-3 py-2">
               <Link href="/contact">
                 Contact Us
               </Link>
