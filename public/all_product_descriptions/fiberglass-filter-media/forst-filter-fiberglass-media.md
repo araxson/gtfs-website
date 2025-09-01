@@ -1,0 +1,19 @@
+# GTFS Fiberglass Media
+
+## Short Description
+
+• Fiberglass filter media is made of long fiberglass in non-woven way, large ventilation quantity, small resistance, good efficiency of the dust arrestance for the over-spray.
+• It is applied to the superficial spray coating high quality painting-spray filtration, high dust catching for PA-50/60/PA-100,especially suitable for using heat recovery system
+
+**Model:** SFF/A3266 Fiberglass Filter Media
+
+**Brand:** GTFS
+
+**Code:** 8421999090 Fiberglass Filter Media
+
+## Product Description
+
+Paint Stop Spray Booth Fiberglass Filter Media 1. Fiberglass filter media is made of long fiberglass in non-woven way, large ventilation quantity, small resistance, goodefficiency of the dust arrestance for the over-spray.2. It is applied to the superficial spray coating high quality painting-spray filtration, high dust catching for PA-50/60/PA-100,especially suitable for using heat recovery system;3. High strength fiberglass increasing structure; the windward side is green, the leeward side is white;4. The low compression performance maintains its outlook, which is completely useful for the filtration fiber to keep the oil mist and the dust;5. Nonflamm ability, temperature resistance at 170°C;6. The compression packing may save the fare and the storage in the transportation. After decompression, it will regain its original condition;7. Outer frame may choose the paper frame, the falvanization iron frame, or aluminium alloy frame. Model SFF/PA-50/60 SFF/PA-100 Average arrestance 92%-96% 97%-99% Initial pressure drop 15Pa 20Pa Final pressure drop 250 Pa 280 Pa Air velocity 0.7-1.5.m/s 0.7-1.75.m/s Dust holding at final 3200-3600g/m2 3600-3900g/m2 Temperature resistance 170°C 170°C Temperature short peaks 190°C 190°C Normal thickness 50/60mm 100mm Normal size 0.8m*21.0m*20m2.0m*20m 0.8m*201.0m*20m2.0m*20m 1.Main application to the auto electrophoretic paint filter and the fire-resistant steel casting plant for the flue gas dust removal processing system;2.Used for the explosion grinding bag dust collector in the blast furnace and cement plant. Support customization, widely used Glass fiber filter material, good dust capacity, not easy to break, long service life Paint the room vents Automobile painting industry Spraying industry Company Profile As a gold supplier, GTFS Co.,LTD has more than 10 years professional experience. We have competitive price, big sales team, short delivery time, and good after-sales service. We can provice free sample and accept trial orders. Packaging&Shipping FAQ Q1: How can I get the quotation of filter cartridges?A: Please let us know :1) OD x ID x Height;2) Filter media;3) Apply in which industry etc.Q2: How can I get the quotation for dust collector?A: Please provide us your1) dust type;2) dust size;3) Filter efficiency;4) Temperature of dust;5) Suggest Wind volume (m3/h)Q3: Sample time & Production time?A: Sample:1-2 days, shipping time:5 to 7 days by Express, such as DHL ,FEDEX,UPS.A: Quantity 100pcs~500pcs, 7~10days,;1000pcs ~5000pcs:15days.Q4. Would it be possible for us to visit your factory?A:Sure, we welcome you at any time! Seeing is believing.Q5. Are you manufacturer or Trade company?A:We are professional manufacturer in China, and have in this line for almost 9 years.Q6.How to solve the quality problems?A:If the products are not conform to customer sample or have quality problems, our company will be responsible to make compensation for it. Q7.Can I get your products with our logo and design?A:Yes, you can. Most of our products can be customized according to your requirements.Q8.Which payment terms are you accept?A:T/T, LC, Western Union, Money Gram are available for us.We accept 30% T/T in advance, the balance should be paid before shipping.
+
+**Source:** https://www.forstfilter.com/forst-filter-fiberglass-media.html
+**Extracted:** 2025-08-19 20:49:07
